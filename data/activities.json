@@ -112,7 +112,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Denali Park Tour",
-        "City": "Denali",
+        "City": "Healy",
         "Day": "4",
         "FullDate": "Sunday, May 24, 2015",
         "Type": "Activity",
@@ -129,7 +129,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Lynx Creek Pizza",
-        "City": "Denali",
+        "City": "Healy",
         "Day": "4",
         "FullDate": "Sunday, May 24, 2015",
         "Type": "Restaurant",
@@ -140,6 +140,24 @@
         "coordinates": [
           -148.9011,
           63.7465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Denali Viewpoint South",
+        "City": "Trapper Creek",
+        "Day": "4",
+        "FullDate": "Sunday, May 24, 2015",
+        "Type": "Restaurant",
+        "Comments": "Decent pizza locale near the Denali Park entrance."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.2395,
+          62.5979
         ]
       }
     },
