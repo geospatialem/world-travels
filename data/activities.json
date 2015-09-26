@@ -8,7 +8,6 @@
         "City": "Anchorage",
         "Day": "1",
         "FullDate": "Thursday, May 21, 2015",
-        "Type": "Activity",
         "Comments": "Learn about previous earthquakes affecting Alaska, some great views of the city, and some shorter leisurely hikes.",
         "marker-symbol": "park",
         "marker-color": "#23344c"
@@ -28,7 +27,6 @@
         "City": "Anchorage",
         "Day": "1",
         "FullDate": "Thursday, May 21, 2015",
-        "Type": "Restaurant",
         "Comments": "There is a grill (Mexican cuisine) and Theatrepub (pizza). They are seperate resteraunts, but equally as good in taste. The beer is delicious. Highly recommended.",
         "marker-symbol": "restaurant",
         "marker-color": "#23344c"
@@ -48,7 +46,6 @@
         "City": "Anchorage",
         "Day": "2",
         "FullDate": "Friday, May 22, 2015",
-        "Type": "Hiking",
         "Comments": "Excellent hiking trails from beginners to advanced. Do be wary as there are many areas where bears feed on salmon while in season.",
         "marker-symbol": "park",
         "marker-color": "#23344c"
@@ -68,7 +65,6 @@
         "City": "Talkeetna",
         "Day": "3",
         "FullDate": "Saturday, May 23, 2015",
-        "Type": "Activity",
         "Comments": "Once in a lifetime experience. A must for any visitor."
       },
       "geometry":{
@@ -85,7 +81,6 @@
         "City": "Talkeetna",
         "Day": "3",
         "FullDate": "Saturday, May 23, 2015",
-        "Type": "Activity",
         "Comments": "Once in a lifetime experience. A must for any visitor.",
         "marker-symbol": "park",
         "marker-color": "#23344c"
@@ -105,7 +100,6 @@
         "City": "Talkeetna",
         "Day": "4",
         "FullDate": "Sunday, May 24, 2015",
-        "Type": "Restaurant",
         "Comments": "Delicious breakfast food at an extremely reasonable price. Come hungry, and expect large quantities of food on your plate.",
         "marker-symbol": "restaurant",
         "marker-color": "#23344c"
@@ -125,7 +119,6 @@
         "City": "Healy",
         "Day": "4",
         "FullDate": "Sunday, May 24, 2015",
-        "Type": "Activity",
         "Comments": "Arrive later in the season to go further on the Park Road with tour buses. Note: Private vehicles can only travel 15 miles in."
       },
       "geometry": {
@@ -142,7 +135,6 @@
         "City": "Healy",
         "Day": "4",
         "FullDate": "Sunday, May 24, 2015",
-        "Type": "Restaurant",
         "Comments": "Decent pizza locale near the Denali Park entrance.",
         "marker-symbol": "restaurant",
         "marker-color": "#23344c"
@@ -162,7 +154,6 @@
         "City": "Trapper Creek",
         "Day": "4",
         "FullDate": "Sunday, May 24, 2015",
-        "Type": "Activity",
         "Comments": "Amazing view of Denali National Park and Denali.",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
@@ -182,7 +173,6 @@
         "City": "Anchorage",
         "Day": "5",
         "FullDate": "Monday, May 25, 2015",
-        "Type": "Activity",
         "Comments": "Great views of Anchorage, and an 'easy' day hike.",
         "marker-symbol": "park",
         "marker-color": "#23344c"
@@ -202,7 +192,6 @@
         "City": "Anchorage",
         "Day": "5",
         "FullDate": "Monday, May 25, 2015",
-        "Type": "Activity",
         "Comments": "Mile 117: A wooden boardwalk winds through the marsh and across watery openings and sedges, perfect habitat for a rich variety of birds.",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
@@ -222,7 +211,6 @@
         "City": "Anchorage",
         "Day": "5",
         "FullDate": "Monday, May 25, 2015",
-        "Type": "Activity",
         "Comments": "Mile 110: A rocky outpost jutting into the waters of Turnagain Arm. It’s named for the white whales that are often spotted from this location as they make their way up and down the inlet.",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
@@ -242,7 +230,6 @@
         "City": "Girdwood",
         "Day": "5",
         "FullDate": "Monday, May 25, 2015",
-        "Type": "Activity",
         "Comments": "Mile 79: See Alaskan wildlife up close! The Alaska Wildlife Conservation Center is dedicated to conservation, education, and quality animal care of Alaska’s wildlife.",
         "marker-symbol": "zoo",
         "marker-color": "#23344c"
@@ -262,7 +249,6 @@
         "City": "Girdwood",
         "Day": "5",
         "FullDate": "Monday, May 25, 2015",
-        "Type": "Restaurant",
         "Comments": "Amazing American cuisine (including local specialties) for a good price. Highly recommended!",
         "marker-symbol": "restaurant",
         "marker-color": "#23344c"
@@ -282,7 +268,6 @@
         "City": "Seward",
         "Day": "6",
         "FullDate": "Tuesday, May 26, 2015",
-        "Type": "Activity",
         "Comments": "Book the National Park Tour with Fox Island dinner (wild Alaska salmon, prime rib, and Alaska king crab)."
       },
       "geometry": {
