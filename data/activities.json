@@ -67,8 +67,7 @@
         "FullDate": "Saturday, May 23, 2015",
         "Comments": "Once in a lifetime experience. A must for any visitor.",
         "stroke": "#23344c",
-        "stroke-width": 3,
-        "stroke-dashArray": "5, 10"
+        "stroke-width": 3
       },
       "geometry":{
         "type":"LineString",
