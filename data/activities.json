@@ -68,7 +68,7 @@
         "Comments": "Once in a lifetime experience. A must for any visitor.",
         "stroke": "#23344c",
         "stroke-width": 3,
-        "stroke-dashArray": "5,10"
+        "stroke-dashArray": "5, 10"
       },
       "geometry":{
         "type":"LineString",
@@ -85,7 +85,7 @@
         "Day": "3",
         "FullDate": "Saturday, May 23, 2015",
         "Comments": "Once in a lifetime experience. A must for any visitor.",
-        "marker-symbol": "park",
+        "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
       "geometry": {
@@ -122,7 +122,9 @@
         "City": "Healy",
         "Day": "4",
         "FullDate": "Sunday, May 24, 2015",
-        "Comments": "Arrive later in the season to go further on the Park Road with tour buses. Note: Private vehicles can only travel 15 miles in."
+        "Comments": "Arrive later in the season to go further on the Park Road with tour buses. Note: Private vehicles can only travel 15 miles in.",
+        "stroke": "#23344c",
+        "stroke-width": 3
       },
       "geometry": {
         "type": "LineString",
@@ -271,7 +273,9 @@
         "City": "Seward",
         "Day": "6",
         "FullDate": "Tuesday, May 26, 2015",
-        "Comments": "Book the National Park Tour with Fox Island dinner (wild Alaska salmon, prime rib, and Alaska king crab)."
+        "Comments": "Book the National Park Tour with Fox Island dinner (wild Alaska salmon, prime rib, and Alaska king crab).",
+        "stroke": "#23344c",
+        "stroke-width": 3
       },
       "geometry": {
         "type": "LineString",
