@@ -66,7 +66,9 @@
         "Day": "3",
         "FullDate": "Saturday, May 23, 2015",
         "Comments": "Once in a lifetime experience. A must for any visitor.",
-        "stroke": "#23344c"
+        "stroke": "#23344c",
+        "marker-symbol": "airport",
+        "marker-color": "#23344c"
       },
       "geometry":{
         "type":"LineString",
