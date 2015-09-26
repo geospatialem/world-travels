@@ -65,7 +65,8 @@
         "City": "Talkeetna",
         "Day": "3",
         "FullDate": "Saturday, May 23, 2015",
-        "Comments": "Once in a lifetime experience. A must for any visitor."
+        "Comments": "Once in a lifetime experience. A must for any visitor.",
+        "color": "#23344c"
       },
       "geometry":{
         "type":"LineString",
