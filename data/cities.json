@@ -6,7 +6,10 @@
       "properties": {
         "City": "Anchorage",
         "Days": 2.5,
-        "Nights": 2
+        "Nights": 2,
+        "marker-symbol": "star",
+        "marker-size": "large",
+        "marker-color": "#d85054"
       },
       "geometry": {
         "type": "Point",
@@ -21,7 +24,10 @@
       "properties": {
         "City": "Talkeetna",
         "Days": 2,
-        "Nights": 3
+        "Nights": 3,
+        "marker-symbol": "star",
+        "marker-size": "large",
+        "marker-color": "#d85054"
       },
       "geometry": {
         "type": "Point",
@@ -36,7 +42,10 @@
       "properties": {
         "City": "Denali",
         "Days": 1,
-        "Nights": 0
+        "Nights": 0,
+        "marker-symbol": "star",
+        "marker-size": "large",
+        "marker-color": "#d85054"
       },
       "geometry": {
         "type": "Point",
@@ -51,7 +60,10 @@
       "properties": {
         "City": "Girdwood",
         "Days": 0.5,
-        "Nights": 3
+        "Nights": 3,
+        "marker-symbol": "star",
+        "marker-size": "large",
+        "marker-color": "#d85054"
       },
       "geometry": {
         "type": "Point",
@@ -66,7 +78,10 @@
       "properties": {
         "City": "Seward",
         "Days": 2,
-        "Nights": 0
+        "Nights": 0,
+        "marker-symbol": "star",
+        "marker-size": "large",
+        "marker-color": "#d85054"
       },
       "geometry": {
         "type": "Point",
@@ -81,7 +96,10 @@
       "properties": {
         "City": "Homer",
         "Days": 2.5,
-        "Nights": 2
+        "Nights": 2,
+        "marker-symbol": "star",
+        "marker-size": "large",
+        "marker-color": "#d85054"
       },
       "geometry": {
         "type": "Point",
@@ -96,7 +114,10 @@
       "properties": {
         "City": "Halibut Cove",
         "Days": 0.5,
-        "Nights": 0
+        "Nights": 0,
+        "marker-symbol": "star",
+        "marker-size": "large",
+        "marker-color": "#d85054"
       },
       "geometry": {
         "type": "Point",
