@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Earthquake Park",
+        "City": "Anchorage",
+        "Day": "1",
+        "FullDate": "Thursday, May 21, 2015",
+        "Type": "Activity",
+        "Comments": "Learn about previous earthquakes affecting Alaska, some great views of the city, and some shorter leisurely hikes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9687,
+          61.1918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Bear Tooth Grill",
+        "City": "Anchorage",
+        "Day": "1",
+        "FullDate": "Thursday, May 21, 2015",
+        "Type": "Restaurant",
+        "Comments": "There is a grill (Mexican cuisine) and Theatrepub (pizza). They are seperate resteraunts, but equally as good in taste. The beer is delicious. Highly recommended."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9072,
+          61.1958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Far North Bicentennial Park",
+        "City": "Anchorage",
+        "Day": "2",
+        "FullDate": "Friday, May 22, 2015",
+        "Type": "Hiking",
+        "Comments": "Excelent hiking trails from beginners to advanced. Do be wary as there are many areas where bears feed on salmon while in season."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.7516,
+          61.1558
+        ]
+      }
+    }
+  ]
+}
