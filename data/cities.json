@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Anchorage",
+        "Days": 2.5,
+        "Nights": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.8875,
+          61.2152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Talkeetna",
+        "Days": 2,
+        "Nights": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.1094,
+          62.3238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Denali",
+        "Days": 1,
+        "Nights": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.897,
+          63.7437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Girdwood",
+        "Days": 0.5,
+        "Nights": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.1685,
+          60.9411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Seward",
+        "Days": 2,
+        "Nights": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4429,
+          60.1051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Homer",
+        "Days": 2.5,
+        "Nights": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5378,
+          59.6434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Halibut Cove",
+        "Days": 0.5,
+        "Nights": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.2259,
+          59.5976
+        ]
+      }
+    }
+  ]
+}
