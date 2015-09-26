@@ -68,7 +68,7 @@
         "Comments": "Once in a lifetime experience. A must for any visitor.",
         "stroke": "#23344c",
         "stroke-width": 3,
-        "stroke-dasharray": "5,10"
+        "stroke-dashArray": "5,10"
       },
       "geometry":{
         "type":"LineString",
