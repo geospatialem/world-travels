@@ -669,6 +669,25 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Halibut Cove Hiking Trail",
+        "City": "Halibut Cove",
+        "Day": "9",
+        "FullDate": "Thursday, May 28, 2015",
+        "Comments": "Short trail to Halibut Cove's lighthouse, great views of the Bay.",
+        "stroke": "#23344c",
+        "stroke-width": 3,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-151.2470,59.5952],[-151.2464,59.5953],[-151.2465,59.5956],[-151.2457,59.5958],[-151.2452,59.5965],[-151.2452,59.5967],[-151.2455,59.5967],[-151.2457,59.5968],[-151.2465,59.5969],[-151.2467,59.5968],[-151.2476,59.5969],[-151.2478,59.5969],[-151.2486,59.5966],[-151.2491,59.5966],[-151.2496,59.5967],[-151.2509,59.5970],[-151.2514,59.5971],[-151.2514,59.5973],[-151.2515,59.5974],[-151.2520,59.5975],[-151.2522,59.5975]
+          ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Salty Dawg Saloon",
         "City": "Homer",
         "Day": "8",
