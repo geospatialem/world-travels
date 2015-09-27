@@ -274,7 +274,7 @@
         "City": "Seward",
         "Day": "6",
         "FullDate": "Tuesday, May 26, 2015",
-        "Comments": "Book the National Park Tour with Fox Island dinner (wild Alaska salmon, prime rib, and Alaska king crab).",
+        "Comments": "Book the National Park Tour with Fox Island dinner (Wild Alaska Salmon, Prime Rib, and Alaskan King Crab).",
         "stroke": "#23344c",
         "stroke-width": 3,
         "stroke-opacity": 1
@@ -283,6 +283,120 @@
         "type": "LineString",
         "coordinates": [
           [-149.43738162517548,60.11848970758457],[-149.4373869895935,60.11879037323547],[-149.43395376205444,60.118806408659715],[-149.43361043930054,60.11817033084124],[-149.43307399749756,60.11723489995922],[-149.4320547580719,60.11678053822666],[-149.433513879776,60.115305155717806],[-149.43346291780472,60.113109332707936],[-149.42148685455322,60.10330185268536],[-149.42092895507812,60.048389180435564],[-149.38385009765625,60.00859805562542],[-149.37149047851562,59.983189019515066],[-149.3865966796875,59.9639475857657],[-149.42848205566406,59.91545087091534],[-149.5294189453125,59.877911874831156],[-149.55825805664062,59.85240250103474],[-149.55413818359375,59.821351211525304],[-149.5404052734375,59.78612473308838],[-149.52804565429688,59.775065617829945],[-149.52804565429688,59.75708673805924],[-149.49234008789062,59.734945594706716],[-149.48822021484375,59.70309199431278],[-149.54727172851562,59.68438118751815],[-149.5843505859375,59.65039782939571],[-149.54452514648438,59.58649923383141],[-149.6392822265625,59.57189664009042],[-149.65095520019528,59.57398311297384],[-149.65850830078125,59.57815567065641],[-149.6674346923828,59.583718276045964],[-149.6832275390625,59.6372113386035],[-149.6942138671875,59.67606191742629],[-149.7216796875,59.74601800002021],[-149.72991943359375,59.80477868126553],[-149.7216796875,59.85929885580886],[-149.69970703125,59.891003681240576],[-149.69833374023438,59.910631722724226],[-149.71481323242188,59.92818382369654],[-149.7374725341797,59.942201625641374],[-149.7378158569336,59.94331935475679],[-149.73807334899902,59.94422210845823],[-149.73803043365479,59.94486691748142],[-149.73777294158933,59.945533206963866],[-149.73708629608151,59.94624246815013],[-149.7360134124756,59.946887237879196],[-149.73519802093506,59.94746751991334],[-149.7339963912964,59.94800480903628],[-149.73275184631348,59.948370160665675],[-149.73146438598633,59.94862805350905],[-149.72914695739746,59.94892892595717],[-149.72614288330078,59.94869252640641],[-149.6861457824707,59.93884821220985],[-149.6832275390625,59.91923685371464],[-149.67361450195312,59.883424842958966],[-149.68460083007812,59.85516121447464],[-149.68460083007812,59.80754134191466],[-149.65988159179688,59.7505151170966],[-149.63241577148438,59.710019270128555],[-149.5733642578125,59.68438118751815],[-149.54727172851562,59.69339139944113],[-149.5187759399414,59.6994546005772],[-149.501953125,59.70794123791506],[-149.4770622253418,59.70949977417093],[-149.48135375976562,59.73754101877842],[-149.52255249023438,59.75803778664038],[-149.52341079711914,59.77636179747313],[-149.53079223632812,59.79303481926257],[-149.53628540039062,59.85240250103474],[-149.46075439453125,59.883424842958966],[-149.37337875366208,59.92775373611061],[-149.3423080444336,59.928527889750846],[-149.3653106689453,59.942201625641374],[-149.35363769531247,59.99898612060444],[-149.37698364257812,60.038102965914874],[-149.40032958984372,60.10387939460457],[-149.4203281402588,60.1035799296882],[-149.42255973815918,60.1085421399291],[-149.43346291780472,60.113109332707936]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Fox Island",
+        "City": "Seward",
+        "Day": "6",
+        "FullDate": "Tuesday, May 26, 2015",
+        "Comments": "Enjoy the amazing cuisine (Wild Alaska Salmon, Prime Rib, and Alaskan King Crab), skip rocks on the beach, and enjoy the beauty around you.",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.3413,
+          59.9280
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Hive Island",
+        "City": "Seward",
+        "Day": "6",
+        "FullDate": "Tuesday, May 26, 2015",
+        "Comments": "See countless birds species, called the hive due to the sounds heard (similar to a bee hive for birds).",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.3660,
+          59.88533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Bear Glacier",
+        "City": "Seward",
+        "Day": "6",
+        "FullDate": "Tuesday, May 26, 2015",
+        "Comments": "Bear Glacier is one of the premier, jaw-dropping scenic experiences on the coast of Alaska. Bear Glacier lagoon has the some of the most massive icebergs in Alaska.",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.5987,
+          59.9666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Holgate Glacier",
+        "City": "Seward",
+        "Day": "6",
+        "FullDate": "Tuesday, May 26, 2015",
+        "Comments": "A tidewater and mountain glacier. It is one of the smaller glaciers in Aialik Bay, but a popular destination to hear and see glacial calving.",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.8768,
+          59.8548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Pederson Glacier",
+        "City": "Seward",
+        "Day": "6",
+        "FullDate": "Tuesday, May 26, 2015",
+        "Comments": "Pedersen Glacier eceded throughout the 20th century exposing Pedersen Spit and Pedersen Lagoon that includes a beautiful habitat.",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.7766,
+          59.8875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Aialik Glacier",
+        "City": "Seward",
+        "Day": "6",
+        "FullDate": "Tuesday, May 26, 2015",
+        "Comments": "The largest glacier in Aialik Bay, and both a tidewater and mountain glacier. While fairly stable, the glacier calves most actively in May and June.",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.7470,
+          59.9491
         ]
       }
     }
