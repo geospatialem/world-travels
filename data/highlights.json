@@ -253,7 +253,7 @@
       "properties": {
         "Name": "Chair 5",
         "City": "Girdwood",
-        "Day": "5",
+        "Day": "5, 9",
         "FullDate": "Monday, May 25, 2015",
         "Comments": "Amazing American cuisine (including local specialties) for a good price. Highly recommended!",
         "marker-symbol": "restaurant",
@@ -663,6 +663,158 @@
         "type": "LineString",
         "coordinates": [
           [-151.4201,59.6026],[-151.4201,59.6025],[-151.4197,59.6025],[-151.4185,59.6036],[-151.4169,59.6042],[-151.4164,59.6042],[-151.4154,59.6040],[-151.4154,59.6037],[-151.4145,59.6034],[-151.4123,59.6042],[-151.2681,59.5987],[-151.2547,59.5985],[-151.2540,59.5957],[-151.2516,59.5953],[-151.2491,59.5943],[-151.2466,59.5946]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Salty Dawg Saloon",
+        "City": "Homer",
+        "Day": "8",
+        "FullDate": "Thursday, May 28, 2015",
+        "Comments": "A well-known landmark with a lot of history and tradition. Bring a dollar bill to leave your mark on the walls, and check out the USGS marker inside the front door (the only one known in a bar).",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.4215,
+          59.6019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "The Bagel Shop",
+        "City": "Homer",
+        "Day": "9",
+        "FullDate": "Friday, May 29, 2015",
+        "Comments": "Super delicious fresh bagels. Get a bagel, make a sandwich, or do a schmear.",
+        "marker-symbol": "restaurant",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.4387,
+          59.6693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Homer Overlook",
+        "City": "Homer",
+        "Day": "9",
+        "FullDate": "Friday, May 29, 2015",
+        "Comments": "Amazing views of Homer.",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.6276,
+          59.6542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Anchor Point Beach",
+        "City": "Anchor Point",
+        "Day": "9",
+        "FullDate": "Friday, May 29, 2015",
+        "Comments": "Great views of the Cook Inlet volcanoes.",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.8669,
+          59.7743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "North America's Most Westerly Highway Point",
+        "City": "Anchor Point",
+        "Day": "9",
+        "FullDate": "Friday, May 29, 2015",
+        "Comments": "Check out the most Westerly locale along North America's Highway system.",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.8331,
+          59.7756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "The Transfiguration of Our Lord Russian Orthodox Church",
+        "City": "Ninilchik",
+        "Day": "9",
+        "FullDate": "Friday, May 29, 2015",
+        "Comments": "A beautiful historic Russian Orthodox church that opened in 1901.",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.6652,
+          60.0502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Kenai Lake Overlook",
+        "City": "Cooper's Landing",
+        "Day": "9",
+        "FullDate": "Friday, May 29, 2015",
+        "Comments": "An unofficial overlook, there is a path that leads to an opening with amazing views of Kenai Lake.",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.7508,
+          60.4918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Anton Anderson Memorial Tunnel",
+        "City": "Whittier",
+        "Day": "9",
+        "FullDate": "Friday, May 29, 2015",
+        "Comments": "The longest railroad highway tunnel in North America.",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.8033,
+          60.7887
         ]
       }
     }
