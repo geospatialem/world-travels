@@ -425,7 +425,7 @@
         "Name": "Exit Glacier",
         "City": "Seward",
         "Day": "7",
-        "FullDate": "Wednesday May 27, 2015",
+        "FullDate": "Wednesday, May 27, 2015",
         "Comments": "One of the most accessible valley glaciers in Alaska with moderately easy trails to view the glacier up close. A visible indicator of glacial recession due to anthropogenic climate change.",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
@@ -444,7 +444,7 @@
         "Name": "Seward Brewing Company",
         "City": "Seward",
         "Day": "7",
-        "FullDate": "Wednesday May 27, 2015",
+        "FullDate": "Wednesday, May 27, 2015",
         "Comments": "Grab a brew (or flight) and some local fresh cuisine! Recently remodeled, and a great updated menu! Great souvenirs glasses!",
         "marker-symbol": "restaurant",
         "marker-color": "#23344c"
@@ -463,7 +463,7 @@
         "Name": "Alaska Sealife Center",
         "City": "Seward",
         "Day": "7",
-        "FullDate": "Wednesday May 27, 2015",
+        "FullDate": "Wednesday, May 27, 2015",
         "Comments": "Alaska’s only public aquarium and ocean wildlife rescue center. Experience close encounters with puffins, octopus, sea lions and other sealife while peeking over the shoulders of ocean scientists studying Alaska’s rich seas and diverse sealife.",
         "marker-symbol": "zoo",
         "marker-color": "#23344c"
@@ -482,7 +482,7 @@
         "Name": "St. Elias Brewery",
         "City": "Soldotna",
         "Day": "7",
-        "FullDate": "Wednesday May 27, 2015",
+        "FullDate": "Wednesday, May 27, 2015",
         "Comments": "Local brewery with decent cuisine. The decor is... different.",
         "marker-symbol": "restaurant",
         "marker-color": "#23344c"
@@ -501,7 +501,7 @@
         "Name": "Kay Bay Coffee",
         "City": "Homer",
         "Day": "8",
-        "FullDate": "Wednesday May 27, 2015",
+        "FullDate": "Thursday, May 28, 2015",
         "Comments": "BEST. COFFEE. EVER!",
         "marker-symbol": "cafe",
         "marker-color": "#23344c"
@@ -509,8 +509,84 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -151.5362,
-          59.6467
+          -151.5364,
+          59.6469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Duncan House Diner",
+        "City": "Homer",
+        "Day": "8",
+        "FullDate": "Thursday, May 28, 2015",
+        "Comments": "Great breakfast food served all day for a reasonable price. Cute decor!",
+        "marker-symbol": "restaurant",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5432,
+          59.6454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Alaska Islands & Ocean Visitor Center",
+        "City": "Homer",
+        "Day": "8",
+        "FullDate": "Thursday, May 28, 2015",
+        "Comments": "Your window to the largest seabird refuge in the world, with all of the wonders of Kachemak Bay right outside its doors!",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5397,
+          59.6411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Mariner Park",
+        "City": "Homer",
+        "Day": "8",
+        "FullDate": "Thursday, May 28, 2015",
+        "Comments": "Cute beach park located at the start of the Homer Spit.",
+        "marker-symbol": "park",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.4970,
+          59.6315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "The Saltry",
+        "City": "Halibut Cove",
+        "Day": "8",
+        "FullDate": "Thursday, May 28, 2015",
+        "Comments": "Amazing local cuisine. Order the Halibut, and Cheesecake for dessert. You won't be disappointed.",
+        "marker-symbol": "restaurant",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.2473,
+          59.5952
         ]
       }
     }
