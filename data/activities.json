@@ -346,6 +346,25 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "No Name Island",
+        "City": "Seward",
+        "Day": "6",
+        "FullDate": "Tuesday, May 26, 2015",
+        "Comments": "Check out the Steller Lions taking in the Sun's rays.",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.5072,
+          59.7180
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Holgate Glacier",
         "City": "Seward",
         "Day": "6",
@@ -397,6 +416,82 @@
         "coordinates": [
           -149.7470,
           59.9491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Exit Glacier",
+        "City": "Seward",
+        "Day": "7",
+        "FullDate": "Wednesday May 27, 2015",
+        "Comments": "One of the most accessible valley glaciers in Alaska with moderately easy trails to view the glacier up close. A visible indicator of glacial recession due to anthropogenic climate change.",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.6419,
+          60.1788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Seward Brewing Company",
+        "City": "Seward",
+        "Day": "7",
+        "FullDate": "Wednesday May 27, 2015",
+        "Comments": "Grab a brew (or flight) and some local fresh cuisine! Recently remodeled, and a great updated menu! Great souvenirs glasses!",
+        "marker-symbol": "restaurant",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4409,
+          60.1010
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Alaska Sealife Center",
+        "City": "Seward",
+        "Day": "7",
+        "FullDate": "Wednesday May 27, 2015",
+        "Comments": "Alaska’s only public aquarium and ocean wildlife rescue center. Experience close encounters with puffins, octopus, sea lions and other sealife while peeking over the shoulders of ocean scientists studying Alaska’s rich seas and diverse sealife.",
+        "marker-symbol": "zoo",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4410,
+          60.0998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "St. Elias Brewery",
+        "City": "Soldotna",
+        "Day": "7",
+        "FullDate": "Wednesday May 27, 2015",
+        "Comments": "Local brewery with decent cuisine. The decor is... different.",
+        "marker-symbol": "restaurant",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.04845,
+          60.4916
         ]
       }
     }
