@@ -67,7 +67,8 @@
         "FullDate": "Saturday, May 23, 2015",
         "Comments": "Once in a lifetime experience. A must for any visitor.",
         "stroke": "#23344c",
-        "stroke-width": 3
+        "stroke-width": 3,
+        "stroke-opacity": 1
       },
       "geometry":{
         "type":"LineString",
@@ -123,7 +124,8 @@
         "FullDate": "Sunday, May 24, 2015",
         "Comments": "Arrive later in the season to go further on the Park Road with tour buses. Note: Private vehicles can only travel 15 miles in.",
         "stroke": "#23344c",
-        "stroke-width": 3
+        "stroke-width": 3,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
@@ -274,7 +276,8 @@
         "FullDate": "Tuesday, May 26, 2015",
         "Comments": "Book the National Park Tour with Fox Island dinner (wild Alaska salmon, prime rib, and Alaska king crab).",
         "stroke": "#23344c",
-        "stroke-width": 3
+        "stroke-width": 3,
+        "stroke-opacity": 1
       },
       "geometry": {
         "type": "LineString",
