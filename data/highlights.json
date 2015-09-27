@@ -27,7 +27,7 @@
         "City": "Anchorage",
         "Day": "1, 10",
         "FullDate": "Thursday, May 21, 2015",
-        "Comments": "There is a grill (Mexican cuisine) and Theatrepub (pizza). They are seperate resteraunts, but equally as good in taste. The beer is delicious. Highly recommended.",
+        "Comments": "There is a Grill (Mexican cuisine) and Theatrepub (pizza). They are seperate resteraunts, but equally as good in taste. The beer is delicious. Highly recommended.",
         "marker-symbol": "restaurant",
         "marker-color": "#23344c"
       },
@@ -815,6 +815,44 @@
         "coordinates": [
           -148.8033,
           60.7887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Bird Point and Trail",
+        "City": "Anchorage",
+        "Day": "10",
+        "FullDate": "Saturday, May 29, 2015",
+        "Comments": "Mile 99: Stunning views. Also, look for Beluga whales a few hours before high tide.",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.3466,
+          60.9287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Alaska Zoo",
+        "City": "Anchorage",
+        "Day": "10",
+        "FullDate": "Saturday, May 29, 2015",
+        "Comments": "Lots of great local animals!",
+        "marker-symbol": "zoo",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.7914,
+          61.1241
         ]
       }
     }
