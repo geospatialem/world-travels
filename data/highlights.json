@@ -646,6 +646,25 @@
           59.5974
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Danny J Boat Cruise",
+        "City": "Homer",
+        "Day": "9",
+        "FullDate": "Thursday, May 28, 2015",
+        "Comments": "Take the 45-minute cruise to Halibut Cove via the Danny J. Booking will include a dinner reservation at the amazing Saltry resteraunt.",
+        "stroke": "#23344c",
+        "stroke-width": 3,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-151.4201,59.6026],[-151.4201,59.6025],[-151.4197,59.6025],[-151.4185,59.6036],[-151.4169,59.6042],[-151.4164,59.6042],[-151.4154,59.6040],[-151.4154,59.6037],[-151.4145,59.6034],[-151.4123,59.6042],[-151.2681,59.5987],[-151.2547,59.5985],[-151.2540,59.5957],[-151.2516,59.5953],[-151.2491,59.5943],[-151.2466,59.5946]
+        ]
+      }
     }
   ]
 }
