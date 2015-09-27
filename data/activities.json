@@ -23,9 +23,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "Bear Tooth Grill",
+        "Name": "Bear Tooth Grill & Theatrepub",
         "City": "Anchorage",
-        "Day": "1",
+        "Day": "1, 10",
         "FullDate": "Thursday, May 21, 2015",
         "Comments": "There is a grill (Mexican cuisine) and Theatrepub (pizza). They are seperate resteraunts, but equally as good in taste. The beer is delicious. Highly recommended.",
         "marker-symbol": "restaurant",
@@ -492,6 +492,25 @@
         "coordinates": [
           -151.04845,
           60.4916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Kay Bay Coffee",
+        "City": "Homer",
+        "Day": "8",
+        "FullDate": "Wednesday May 27, 2015",
+        "Comments": "BEST. COFFEE. EVER!",
+        "marker-symbol": "cafe",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5362,
+          59.6467,
         ]
       }
     }
