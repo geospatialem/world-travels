@@ -574,6 +574,44 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Lands End",
+        "City": "Homer",
+        "Day": "8",
+        "FullDate": "Thursday, May 28, 2015",
+        "Comments": "The end of Alaska Highway 1. Great views of Kachemak Bay.",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.4084,
+          59.6005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Skyline Drive",
+        "City": "Homer",
+        "Day": "8",
+        "FullDate": "Thursday, May 28, 2015",
+        "Comments": "Incredible views of Kachemak Bay, Homer, and the Homer Spit.",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5116,
+          59.67022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "The Saltry",
         "City": "Halibut Cove",
         "Day": "8",
@@ -587,6 +625,25 @@
         "coordinates": [
           -151.2473,
           59.5952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Lighthouse",
+        "City": "Halibut Cove",
+        "Day": "8",
+        "FullDate": "Thursday, May 28, 2015",
+        "Comments": "Hike to a cute lighthouse on Halibut Cove. You can also view the arch from up close!",
+        "marker-symbol": "lighthouse",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.2521,
+          59.5974
         ]
       }
     }
