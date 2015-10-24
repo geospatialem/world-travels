@@ -16,11 +16,10 @@ var alaskaCities = L.geoJson(null, {
   },
   onEachFeature: function (feature, layer) {
 	  //Popup
-	  layer.bindPopup(
-			  "<b>" + feature.properties.City + "</b><br />" +
-			  "Days: " + feature.properties.Days + "<br />" +
-			  "Nights: " + feature.properties.Nights
-	   );
+	  layer.bindLabel(
+			  feature.properties.City, {
+				  noHide: true
+	  });
   }
 });
 $.getJSON("data/cities.json", function (data) {
@@ -54,6 +53,6 @@ var map = L.map('map', {
   layers: [cartoBasemap, alaskaCities, alaskaHighlights]
 });
 //Zoom to the GeoJSON on load
-map.on("layeradd", function (e) { 
+map.on("load", function (e) { 
 	map.fitBounds(alaskaCities);
 });
