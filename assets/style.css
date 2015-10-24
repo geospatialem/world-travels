@@ -37,5 +37,5 @@ html, body, #map { height: 100%; }
 
 .leaflet-label-right:before,
 .leaflet-label-left:after {
-	content: "";
+	/*content: "";*/
 }
