@@ -6,35 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-1.0.0-b1/leaflet.css" />
+	<link rel="stylesheet" href="/assets/style.css" />
 
-	<script src="http://cdn.leafletjs.com/leaflet-1.0.0-b1/leaflet.js"></script>
-
-	<style>
-		body {
-			padding: 0;
-			margin: 0;
-		}
-		html, body, #map {
-			height: 100%;
-		}
-	</style>
 </head>
 <body>
 	<div id="map"></div>
 
-	<script>
-		
-  var CartoDB_Base = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-  	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
-  	subdomains: 'abcd',
-  	maxZoom: 19
-  });
+	<script src="http://cdn.leafletjs.com/leaflet-1.0.0-b1/leaflet.js"></script>
+	<script src="/assets/script.js"></script>
 
-var map = L.map('map', {
-    center: [64.20, -149.49],
-    zoom: 5,
-    layers: [CartoDB_Base]
-});
-	</script>
 </body>
 </html>
