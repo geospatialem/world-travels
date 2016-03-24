@@ -11,6 +11,7 @@
         "end": "2015-22-05",
         "formatDate": "Thursday, May 21, 2015",
         "Comments": "Learn about previous earthquakes affecting Alaska, some great views of the city, and some shorter leisurely hikes.",
+        "Image": "earthquake-park",
         "marker-symbol": "park",
         "marker-color": "#23344c"
       },
@@ -262,6 +263,7 @@
         "end": "2015-26-05",
         "formatDate": "Monday, May 25, 2015",
         "Comments": "Mile 79: See Alaskan wildlife up close! The Alaska Wildlife Conservation Center is dedicated to conservation, education, and quality animal care of Alaska’s wildlife.",
+        "Image": "wildlife-center",
         "marker-symbol": "zoo",
         "marker-color": "#23344c"
       },
@@ -304,6 +306,7 @@
         "end": "2015-27-05",
         "formatDate": "Tuesday, May 26, 2015",
         "Comments": "Book the National Park Tour with Fox Island dinner (Wild Alaska Salmon, Prime Rib, and Alaskan King Crab).",
+        "Image": "fjords",
         "stroke": "#23344c",
         "stroke-width": 3,
         "stroke-opacity": 1
@@ -325,6 +328,7 @@
         "end": "2015-27-05",
         "formatDate": "Tuesday, May 26, 2015",
         "Comments": "Enjoy the amazing cuisine (Wild Alaska Salmon, Prime Rib, and Alaskan King Crab), skip rocks on the beach, and enjoy the beauty around you.",
+        "Image": "fox-island",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -367,6 +371,7 @@
         "end": "2015-27-05",
         "formatDate": "Tuesday, May 26, 2015",
         "Comments": "Bear Glacier is one of the premier, jaw-dropping scenic experiences on the coast of Alaska. Bear Glacier lagoon has the some of the most massive icebergs in Alaska.",
+        "Image": "bear-glacier",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -388,6 +393,7 @@
         "end": "2015-27-05",
         "formatDate": "Tuesday, May 26, 2015",
         "Comments": "Check out the Steller Lions taking in the Sun's rays.",
+        "Image": "no-name-island",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -409,6 +415,7 @@
         "end": "2015-27-05",
         "formatDate": "Tuesday, May 26, 2015",
         "Comments": "A tidewater and mountain glacier. It is one of the smaller glaciers in Aialik Bay, but a popular destination to hear and see glacial calving.",
+        "Image": "holgate-glacier",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -451,6 +458,7 @@
         "end": "2015-27-05",
         "formatDate": "Tuesday, May 26, 2015",
         "Comments": "The largest glacier in Aialik Bay, and both a tidewater and mountain glacier. While fairly stable, the glacier calves most actively in May and June.",
+        "Image": "aialik-glacier",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -472,6 +480,7 @@
         "end": "2015-28-05",
         "formatDate": "Wednesday, May 27, 2015",
         "Comments": "One of the most accessible valley glaciers in Alaska with moderately easy trails to view the glacier up close. A visible indicator of glacial recession due to anthropogenic climate change.",
+        "Image": "exit-glacier",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -514,6 +523,7 @@
         "end": "2015-28-05",
         "formatDate": "Wednesday, May 27, 2015",
         "Comments": "Alaska’s only public aquarium and ocean wildlife rescue center. Experience close encounters with puffins, octopus, sea lions and other sealife while peeking over the shoulders of ocean scientists studying Alaska’s rich seas and diverse sealife.",
+        "Image": "sealife-center",
         "marker-symbol": "zoo",
         "marker-color": "#23344c"
       },
@@ -892,6 +902,7 @@
         "end": "2015-30-05",
         "formatDate": "Friday, May 29, 2015",
         "Comments": "An unofficial overlook, there is a path that leads to an opening with amazing views of Kenai Lake.",
+        "Image": "kenai-lake",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },

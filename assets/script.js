@@ -17,7 +17,7 @@ var mbStreetSat = L.tileLayer(
 var alaskaCities = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
 	  return new L.CircleMarker(latlng, {
-      	radius: 5, 
+      	radius: 5,
       	fillOpacity: 0.85,
       	color: "#000",
       	clickable: false
@@ -40,11 +40,20 @@ var alaskaHighlights = L.geoJson(null, {
 	  pointToLayer: L.mapbox.marker.style,
   onEachFeature: function (feature, layer) {
 	  //Popup
+		if (feature.properties.Image) {
 	  layer.bindPopup(
-			  "<b>" + feature.properties.Name + "</b><br />" + 
+			  "<b>" + feature.properties.Name + "</b><br />" +
 			  "<i>" + feature.properties.City + ", AK </i><br />" +
-			  feature.properties.Comments
+			  feature.properties.Comments + "<br />" +
+			"<img src='photos/" + feature.properties.Image + ".JPG' width='250' height='200'></img><br />"
 	   );
+	 } else {
+		 layer.bindPopup(
+				 "<b>" + feature.properties.Name + "</b><br />" +
+				 "<i>" + feature.properties.City + ", AK </i><br />" +
+				 feature.properties.Comments + "<br />"
+			);
+	 }
   }
 });
 $.getJSON("data/highlights.json", function (data) {
