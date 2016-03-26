@@ -39,7 +39,8 @@ $.getJSON("data/cities.json", function (data) {
 var alaskaHighlights = L.geoJson(null, {
 	  pointToLayer: L.mapbox.marker.style,
   onEachFeature: function (feature, layer) {
-	  //Popup
+		layer.options.riseOnHover = true; //Rise each feature on hover
+		//Popup
 		if (feature.properties.Image) {
 	  layer.bindPopup(
 			  "<b>" + feature.properties.Name + "</b><br />" +
