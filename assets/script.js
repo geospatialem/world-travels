@@ -40,6 +40,7 @@ var alaskaHighlights = L.geoJson(null, {
 	  pointToLayer: L.mapbox.marker.style,
   onEachFeature: function (feature, layer) {
 		layer.options.riseOnHover = true; //Rise each feature on hover
+		layer.options.title = feature.properties.Name; //Add a title on hover
 		//Popup
 		if (feature.properties.Image) {
 	  layer.bindPopup(
