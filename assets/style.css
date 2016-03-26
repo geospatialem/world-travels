@@ -1,5 +1,12 @@
-body { padding: 0; margin: 0; }
-html, body, #map { height: 100%; }
+body { 
+    padding: 0; 
+    margin: 0; 
+}
+
+html, body, #map { 
+    height: 100%; 
+    overflow-y: hidden;
+}
 
 .leaflet-label {
     font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
