@@ -11,7 +11,7 @@
         "end": "2015-22-05",
         "formatDate": "Thursday, May 21, 2015",
         "Comments": "Learn about previous earthquakes affecting Alaska, some great views of the city, and some shorter leisurely hikes.",
-        "Image": "earthquake-park",
+        "Image": "alaska/earthquake-park",
         "marker-symbol": "park",
         "marker-color": "#23344c"
       },
@@ -53,7 +53,7 @@
         "end": "2015-23-05",
         "formatDate": "Friday, May 22, 2015",
         "Comments": "Excellent hiking trails from beginners to advanced. Do be wary as there are many areas where bears feed on salmon while in season.",
-        "Image": "bicentennial-park",
+        "Image": "alaska/bicentennial-park",
         "marker-symbol": "park",
         "marker-color": "#23344c"
       },
@@ -75,7 +75,7 @@
         "end": "2015-24-05",
         "formatDate": "Saturday, May 23, 2015",
         "Comments": "Once in a lifetime experience. A must for any visitor.",
-        "Image": "flightseeing",
+        "Image": "alaska/flightseeing",
         "stroke": "#23344c",
         "stroke-width": 3,
         "stroke-opacity": 1
@@ -97,7 +97,7 @@
         "end": "2015-24-05",
         "formatDate": "Saturday, May 23, 2015",
         "Comments": "Once in a lifetime experience. A must for any visitor.",
-        "Image": "glacier-landing",
+        "Image": "alaska/glacier-landing",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -140,7 +140,7 @@
         "end": "2015-25-05",
         "formatDate": "Sunday, May 24, 2015",
         "Comments": "Arrive later in the season to go further on the Park Road with tour buses. Note: Private vehicles can only travel 15 miles in.",
-        "Image": "denali-park",
+        "Image": "alaska/denali-park",
         "stroke": "#23344c",
         "stroke-width": 3,
         "stroke-opacity": 1
@@ -183,7 +183,7 @@
         "end": "2015-25-05",
         "formatDate": "Sunday, May 24, 2015",
         "Comments": "Amazing view of Denali National Park and Denali.",
-        "Image": "denali-south",
+        "Image": "alaska/denali-south",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -205,7 +205,7 @@
         "end": "2015-26-05",
         "formatDate": "Monday, May 25, 2015",
         "Comments": "Great views of Anchorage, and an 'easy' day hike.",
-        "Image": "flattop-mountain",
+        "Image": "alaska/flattop-mountain",
         "marker-symbol": "park",
         "marker-color": "#23344c"
       },
@@ -227,7 +227,7 @@
         "end": "2015-26-05",
         "formatDate": "Monday, May 25, 2015",
         "Comments": "Mile 117: A wooden boardwalk winds through the marsh and across watery openings and sedges, perfect habitat for a rich variety of birds.",
-        "Image": "potter-marsh",
+        "Image": "alaska/potter-marsh",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -249,7 +249,7 @@
         "end": "2015-26-05",
         "formatDate": "Monday, May 25, 2015",
         "Comments": "Mile 110: A rocky outpost jutting into the waters of Turnagain Arm. It’s named for the white whales that are often spotted from this location as they make their way up and down the inlet.",
-        "Image": "beluga-point",
+        "Image": "alaska/beluga-point",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -271,7 +271,7 @@
         "end": "2015-26-05",
         "formatDate": "Monday, May 25, 2015",
         "Comments": "Mile 79: See Alaskan wildlife up close! The Alaska Wildlife Conservation Center is dedicated to conservation, education, and quality animal care of Alaska’s wildlife.",
-        "Image": "wildlife-center",
+        "Image": "alaska/wildlife-center",
         "marker-symbol": "zoo",
         "marker-color": "#23344c"
       },
@@ -314,7 +314,7 @@
         "end": "2015-27-05",
         "formatDate": "Tuesday, May 26, 2015",
         "Comments": "Book the National Park Tour with Fox Island dinner (Wild Alaska Salmon, Prime Rib, and Alaskan King Crab).",
-        "Image": "fjords",
+        "Image": "alaska/fjords",
         "stroke": "#23344c",
         "stroke-width": 3,
         "stroke-opacity": 1
@@ -336,7 +336,7 @@
         "end": "2015-27-05",
         "formatDate": "Tuesday, May 26, 2015",
         "Comments": "Enjoy the amazing cuisine (Wild Alaska Salmon, Prime Rib, and Alaskan King Crab), skip rocks on the beach, and enjoy the beauty around you.",
-        "Image": "fox-island",
+        "Image": "alaska/fox-island",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -379,7 +379,7 @@
         "end": "2015-27-05",
         "formatDate": "Tuesday, May 26, 2015",
         "Comments": "Bear Glacier is one of the premier, jaw-dropping scenic experiences on the coast of Alaska. Bear Glacier lagoon has the some of the most massive icebergs in Alaska.",
-        "Image": "bear-glacier",
+        "Image": "alaska/bear-glacier",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -401,7 +401,7 @@
         "end": "2015-27-05",
         "formatDate": "Tuesday, May 26, 2015",
         "Comments": "Check out the Steller Lions taking in the Sun's rays.",
-        "Image": "no-name-island",
+        "Image": "alaska/no-name-island",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -423,7 +423,7 @@
         "end": "2015-27-05",
         "formatDate": "Tuesday, May 26, 2015",
         "Comments": "A tidewater and mountain glacier. It is one of the smaller glaciers in Aialik Bay, but a popular destination to hear and see glacial calving.",
-        "Image": "holgate-glacier",
+        "Image": "alaska/holgate-glacier",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -466,7 +466,7 @@
         "end": "2015-27-05",
         "formatDate": "Tuesday, May 26, 2015",
         "Comments": "The largest glacier in Aialik Bay, and both a tidewater and mountain glacier. While fairly stable, the glacier calves most actively in May and June.",
-        "Image": "aialik-glacier",
+        "Image": "alaska/aialik-glacier",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -488,7 +488,7 @@
         "end": "2015-28-05",
         "formatDate": "Wednesday, May 27, 2015",
         "Comments": "One of the most accessible valley glaciers in Alaska with moderately easy trails to view the glacier up close. A visible indicator of glacial recession due to anthropogenic climate change.",
-        "Image": "exit-glacier",
+        "Image": "alaska/exit-glacier",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -531,7 +531,7 @@
         "end": "2015-28-05",
         "formatDate": "Wednesday, May 27, 2015",
         "Comments": "Alaska’s only public aquarium and ocean wildlife rescue center. Experience close encounters with puffins, octopus, sea lions and other sealife while peeking over the shoulders of ocean scientists studying Alaska’s rich seas and diverse sealife.",
-        "Image": "sealife-center",
+        "Image": "alaska/sealife-center",
         "marker-symbol": "zoo",
         "marker-color": "#23344c"
       },
@@ -595,7 +595,7 @@
         "end": "2015-29-05",
         "formatDate": "Thursday, May 28, 2015",
         "Comments": "Great breakfast food served all day for a reasonable price. Cute decor!",
-        "Image": "duncan-house",
+        "Image": "alaska/duncan-house",
         "marker-symbol": "restaurant",
         "marker-color": "#23344c"
       },
@@ -617,7 +617,7 @@
         "end": "2015-30-05",
         "formatDate": "Thursday, May 28, 2015",
         "Comments": "Your window to the largest seabird refuge in the world, with all of the wonders of Kachemak Bay right outside its doors!",
-        "Image": "alaska-islands",
+        "Image": "alaska/alaska-islands",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -639,7 +639,7 @@
         "end": "2015-29-05",
         "formatDate": "Thursday, May 28, 2015",
         "Comments": "Cute beach park located at the start of the Homer Spit.",
-        "Image": "mariner-park",
+        "Image": "alaska/mariner-park",
         "marker-symbol": "park",
         "marker-color": "#23344c"
       },
@@ -661,7 +661,7 @@
         "end": "2015-29-05",
         "formatDate": "Thursday, May 28, 2015",
         "Comments": "The end of Alaska Highway 1. Great views of Kachemak Bay.",
-        "Image": "lands-end",
+        "Image": "alaska/lands-end",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -683,7 +683,7 @@
         "end": "2015-29-05",
         "formatDate": "Thursday, May 28, 2015",
         "Comments": "Incredible views of Kachemak Bay, Homer, and the Homer Spit.",
-        "Image": "skyline-drive",
+        "Image": "alaska/skyline-drive",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -705,7 +705,7 @@
         "end": "2015-29-05",
         "formatDate": "Thursday, May 28, 2015",
         "Comments": "Amazing local cuisine. Order the Halibut, and Cheesecake for dessert. You won't be disappointed.",
-        "Image": "the-saltry",
+        "Image": "alaska/the-saltry",
         "marker-symbol": "restaurant",
         "marker-color": "#23344c"
       },
@@ -727,7 +727,7 @@
         "end": "2015-29-05",
         "formatDate": "Thursday, May 28, 2015",
         "Comments": "Hike to a cute lighthouse on Halibut Cove. You can also view the arch from up close!",
-        "Image": "lighthouse",
+        "Image": "alaska/lighthouse",
         "marker-symbol": "lighthouse",
         "marker-color": "#23344c"
       },
@@ -749,7 +749,7 @@
         "end": "2015-29-05",
         "formatDate": "Thursday, May 28, 2015",
         "Comments": "Take the 45-minute cruise to Halibut Cove via the Danny J. Booking will include a dinner reservation at the amazing Saltry resteraunt.",
-        "Image": "danny-boat",
+        "Image": "alaska/danny-boat",
         "stroke": "#23344c",
         "stroke-width": 3,
         "stroke-opacity": 1
@@ -771,7 +771,7 @@
         "end": "2015-29-05",
         "formatDate": "Thursday, May 28, 2015",
         "Comments": "Short trail to Halibut Cove's lighthouse, great views of the Bay.",
-        "Image": "halibut-trail",
+        "Image": "alaska/halibut-trail",
         "stroke": "#23344c",
         "stroke-width": 3,
         "stroke-opacity": 1
@@ -793,7 +793,7 @@
         "end": "2015-29-05",
         "formatDate": "Thursday, May 28, 2015",
         "Comments": "A well-known landmark with a lot of history and tradition. Bring a dollar bill to leave your mark on the walls, and check out the USGS marker inside the front door (the only one known in a bar).",
-        "Image": "salty-dawg",
+        "Image": "alaska/salty-dawg",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -836,7 +836,7 @@
         "end": "2015-30-05",
         "formatDate": "Friday, May 29, 2015",
         "Comments": "Amazing views of Homer.",
-        "Image": "homer-overlook",
+        "Image": "alaska/homer-overlook",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -858,7 +858,7 @@
         "end": "2015-30-05",
         "formatDate": "Friday, May 29, 2015",
         "Comments": "Great views of the Cook Inlet volcanoes.",
-        "Image": "anchor-beach",
+        "Image": "alaska/anchor-beach",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -880,7 +880,7 @@
         "end": "2015-30-05",
         "formatDate": "Friday, May 29, 2015",
         "Comments": "Check out the most Westerly locale along North America's Highway system.",
-        "Image": "west-highway",
+        "Image": "alaska/west-highway",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -902,7 +902,7 @@
         "end": "2015-30-05",
         "formatDate": "Friday, May 29, 2015",
         "Comments": "A beautiful historic Russian Orthodox church that opened in 1901.",
-        "Image": "russian-church",
+        "Image": "alaska/russian-church",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -924,7 +924,7 @@
         "end": "2015-30-05",
         "formatDate": "Friday, May 29, 2015",
         "Comments": "An unofficial overlook, there is a path that leads to an opening with amazing views of Kenai Lake.",
-        "Image": "kenai-lake",
+        "Image": "alaska/kenai-lake",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -967,7 +967,7 @@
         "end": "2015-30-05",
         "formatDate": "Saturday, May 29, 2015",
         "Comments": "Mile 99: Stunning views. Also, look for Beluga whales a few hours before high tide.",
-        "Image": "bird-point",
+        "Image": "alaska/bird-point",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -989,7 +989,7 @@
         "end": "2015-30-05",
         "formatDate": "Saturday, May 29, 2015",
         "Comments": "Lots of great local animals!",
-        "Image": "alaska-zoo",
+        "Image": "alaska/alaska-zoo",
         "marker-symbol": "zoo",
         "marker-color": "#23344c"
       },
