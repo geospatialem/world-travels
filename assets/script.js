@@ -43,14 +43,14 @@ var majorHighlights = L.geoJson(null, {
 		if (feature.properties.Image) {
 	  layer.bindPopup(
 			  "<b>" + feature.properties.Name + "</b><br />" +
-			  "<i>" + feature.properties.City + ", AK </i><br />" +
+			  "<i>" + feature.properties.City + ", " + feature.properties.Region + "</i><br />" +
 			  feature.properties.Comments + "<br />" +
 			"<img src='photos/" + feature.properties.Image + ".JPG' width='250' height='200'></img><br />"
 	   );
 	 } else {
 		 layer.bindPopup(
 				 "<b>" + feature.properties.Name + "</b><br />" +
-				 "<i>" + feature.properties.City + ", AK </i><br />" +
+				 "<i>" + feature.properties.City + ", " + feature.properties.Region + "</i><br />" +
 				 feature.properties.Comments + "<br />"
 			);
 	 } //End popup
