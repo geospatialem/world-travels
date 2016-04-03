@@ -2,19 +2,17 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoiaG9ja2V5ZHVjazMwIiwiYSI6InE4cmFHNlUifQ.X5m_TSatNjZs6Vc7B3_m2A';
 
 //Basemap: Mapbox Emerald
-var mbEmerald = L.tileLayer(
-		'https://api.mapbox.com/v4/mapbox.emerald/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaG9ja2V5ZHVjazMwIiwiYSI6InE4cmFHNlUifQ.X5m_TSatNjZs6Vc7B3_m2A', {
-			attribution: "&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>, <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>"
-		});
+var mbEmerald = L.tileLayer('https://api.mapbox.com/v4/mapbox.emerald/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaG9ja2V5ZHVjazMwIiwiYSI6InE4cmFHNlUifQ.X5m_TSatNjZs6Vc7B3_m2A', {
+	attribution: "&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>, <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>"
+});
 
 //Basemap: Mapbox Streets Satellite
-var mbStreetSat = L.tileLayer(
-		'https://api.mapbox.com/v4/mapbox.streets-satellite/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaG9ja2V5ZHVjazMwIiwiYSI6InE4cmFHNlUifQ.X5m_TSatNjZs6Vc7B3_m2A', {
-			attribution: "&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>, <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>"
-		});
+var mbStreetSat = L.tileLayer('https://api.mapbox.com/v4/mapbox.streets-satellite/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaG9ja2V5ZHVjazMwIiwiYSI6InE4cmFHNlUifQ.X5m_TSatNjZs6Vc7B3_m2A', {
+	attribution: "&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>, <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>"
+});
 
 //Alaska Cities Visited
-var alaskaCities = L.geoJson(null, {
+var visitedCities = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
 	  return new L.CircleMarker(latlng, {
       	radius: 5,
@@ -32,11 +30,11 @@ var alaskaCities = L.geoJson(null, {
   }
 });
 $.getJSON("data/cities.json", function (data) {
-  alaskaCities.addData(data);
+  visitedCities.addData(data);
 });
 
 //Alaska Trip Highlight POI's
-var alaskaHighlights = L.geoJson(null, {
+var majorHighlights = L.geoJson(null, {
 	  pointToLayer: L.mapbox.marker.style,
   onEachFeature: function (feature, layer) {
 		layer.options.riseOnHover = true; //Rise each feature on hover
@@ -55,18 +53,18 @@ var alaskaHighlights = L.geoJson(null, {
 				 "<i>" + feature.properties.City + ", AK </i><br />" +
 				 feature.properties.Comments + "<br />"
 			);
-	 }
+	 } //End popup
   }
 });
 $.getJSON("data/highlights.json", function (data) {
-	alaskaHighlights.addData(data);
+	majorHighlights.addData(data);
 });
 
 //Define the map
 var map = L.map('map', {
   center: [64.20, -149.49],
   zoom: 5,
-  layers: [mbEmerald, alaskaCities, alaskaHighlights]
+  layers: [mbEmerald, visitedCities, majorHighlights]
 });
 
 //Legend: Define Basemap and Overlay Layers
@@ -76,8 +74,8 @@ var baseMaps = {
 };
 
 var overlayMaps = {
-		"Cities": alaskaCities,
-		"Trip Highlights": alaskaHighlights
+		"Cities": visitedCities,
+		"Points of Interest": majorHighlights
 };
 
 //Collapse the legend
