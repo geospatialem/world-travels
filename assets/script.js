@@ -11,7 +11,7 @@ var mbStreetSat = L.tileLayer('https://api.mapbox.com/v4/mapbox.streets-satellit
 	attribution: "&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>, <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>"
 });
 
-//Alaska Cities Visited
+//Cities Visited
 var visitedCities = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
 	  return new L.CircleMarker(latlng, {
@@ -33,7 +33,7 @@ $.getJSON("data/cities.json", function (data) {
   visitedCities.addData(data);
 });
 
-//Alaska Trip Highlight POI's
+//Points of Interest, or Major highlights
 var majorHighlights = L.geoJson(null, {
 	  pointToLayer: L.mapbox.marker.style,
   onEachFeature: function (feature, layer) {
