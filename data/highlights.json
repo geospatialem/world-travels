@@ -6,6 +6,7 @@
       "properties": {
         "Name": "Earthquake Park",
         "City": "Anchorage",
+        "Region": "AK",
         "Day": "1",
         "start": "2015-21-05",
         "end": "2015-22-05",
@@ -28,6 +29,7 @@
       "properties": {
         "Name": "Bear Tooth Grill & Theatrepub",
         "City": "Anchorage",
+        "Region": "AK",
         "Day": "1, 10",
         "start": "2015-21-05",
         "formatDate": "Thursday, May 21, 2015",
@@ -48,6 +50,7 @@
       "properties": {
         "Name": "Far North Bicentennial Park",
         "City": "Anchorage",
+        "Region": "AK",
         "Day": "2",
         "start": "2015-22-05",
         "end": "2015-23-05",
@@ -70,6 +73,7 @@
       "properties": {
         "Name": "Denali Flightseeing Route",
         "City": "Talkeetna",
+        "Region": "AK",
         "Day": "3",
         "start": "2015-23-05",
         "end": "2015-24-05",
@@ -92,6 +96,7 @@
       "properties": {
         "Name": "Denali Glacial Landing",
         "City": "Talkeetna",
+        "Region": "AK",
         "Day": "3",
         "start": "2015-23-05",
         "end": "2015-24-05",
@@ -114,6 +119,7 @@
       "properties": {
         "Name": "Talkeetna Roadhouse",
         "City": "Talkeetna",
+        "Region": "AK",
         "Day": "4",
         "start": "2015-24-05",
         "end": "2015-25-05",
@@ -135,6 +141,7 @@
       "properties": {
         "Name": "Denali Park Tour",
         "City": "Healy",
+        "Region": "AK",
         "Day": "4",
         "start": "2015-24-05",
         "end": "2015-25-05",
@@ -157,6 +164,7 @@
       "properties": {
         "Name": "Lynx Creek Pizza",
         "City": "Healy",
+        "Region": "AK",
         "Day": "4",
         "start": "2015-24-05",
         "end": "2015-25-05",
@@ -178,6 +186,7 @@
       "properties": {
         "Name": "Denali Viewpoint South",
         "City": "Trapper Creek",
+        "Region": "AK",
         "Day": "4",
         "start": "2015-24-05",
         "end": "2015-25-05",
@@ -200,6 +209,7 @@
       "properties": {
         "Name": "Flattop Mountain",
         "City": "Anchorage",
+        "Region": "AK",
         "Day": "5",
         "start": "2015-25-05",
         "end": "2015-26-05",
@@ -222,6 +232,7 @@
       "properties": {
         "Name": "Potter Marsh Bird Sanctuary",
         "City": "Anchorage",
+        "Region": "AK",
         "Day": "5",
         "start": "2015-25-05",
         "end": "2015-26-05",
@@ -244,6 +255,7 @@
       "properties": {
         "Name": "Beluga Point",
         "City": "Anchorage",
+        "Region": "AK",
         "Day": "5",
         "start": "2015-25-05",
         "end": "2015-26-05",
@@ -266,6 +278,7 @@
       "properties": {
         "Name": "Alaska Wildlife Conservation Center",
         "City": "Girdwood",
+        "Region": "AK",
         "Day": "5",
         "start": "2015-25-05",
         "end": "2015-26-05",
@@ -288,6 +301,7 @@
       "properties": {
         "Name": "Chair 5",
         "City": "Girdwood",
+        "Region": "AK",
         "Day": "5, 9",
         "start": "2015-25-05",
         "end": "2015-29-05",
@@ -309,6 +323,7 @@
       "properties": {
         "Name": "Kenai Fjords National Park Tour",
         "City": "Seward",
+        "Region": "AK",
         "Day": "6",
         "start": "2015-26-05",
         "end": "2015-27-05",
@@ -331,6 +346,7 @@
       "properties": {
         "Name": "Fox Island",
         "City": "Seward",
+        "Region": "AK",
         "Day": "6",
         "start": "2015-26-05",
         "end": "2015-27-05",
@@ -353,6 +369,7 @@
       "properties": {
         "Name": "Hive Island",
         "City": "Seward",
+        "Region": "AK",
         "Day": "6",
         "start": "2015-26-05",
         "end": "2015-27-05",
@@ -374,6 +391,7 @@
       "properties": {
         "Name": "Bear Glacier",
         "City": "Seward",
+        "Region": "AK",
         "Day": "6",
         "start": "2015-26-05",
         "end": "2015-27-05",
@@ -396,6 +414,7 @@
       "properties": {
         "Name": "No Name Island",
         "City": "Seward",
+        "Region": "AK",
         "Day": "6",
         "start": "2015-26-05",
         "end": "2015-27-05",
@@ -418,6 +437,7 @@
       "properties": {
         "Name": "Holgate Glacier",
         "City": "Seward",
+        "Region": "AK",
         "Day": "6",
         "start": "2015-26-05",
         "end": "2015-27-05",
@@ -440,6 +460,7 @@
       "properties": {
         "Name": "Pederson Glacier",
         "City": "Seward",
+        "Region": "AK",
         "Day": "6",
         "start": "2015-26-05",
         "end": "2015-27-05",
@@ -461,6 +482,7 @@
       "properties": {
         "Name": "Aialik Glacier",
         "City": "Seward",
+        "Region": "AK",
         "Day": "6",
         "start": "2015-26-05",
         "end": "2015-27-05",
@@ -483,6 +505,7 @@
       "properties": {
         "Name": "Exit Glacier",
         "City": "Seward",
+        "Region": "AK",
         "Day": "7",
         "start": "2015-27-05",
         "end": "2015-28-05",
@@ -505,6 +528,7 @@
       "properties": {
         "Name": "Seward Brewing Company",
         "City": "Seward",
+        "Region": "AK",
         "Day": "7",
         "start": "2015-27-05",
         "end": "2015-28-05",
@@ -526,6 +550,7 @@
       "properties": {
         "Name": "Alaska Sealife Center",
         "City": "Seward",
+        "Region": "AK",
         "Day": "7",
         "start": "2015-27-05",
         "end": "2015-28-05",
@@ -548,6 +573,7 @@
       "properties": {
         "Name": "St. Elias Brewery",
         "City": "Soldotna",
+        "Region": "AK",
         "Day": "7",
         "start": "2015-27-05",
         "end": "2015-28-05",
@@ -569,6 +595,7 @@
       "properties": {
         "Name": "Kay Bay Coffee",
         "City": "Homer",
+        "Region": "AK",
         "Day": "8",
         "start": "2015-28-05",
         "end": "2015-30-05",
@@ -590,6 +617,7 @@
       "properties": {
         "Name": "Duncan House Diner",
         "City": "Homer",
+        "Region": "AK",
         "Day": "8",
         "start": "2015-28-05",
         "end": "2015-29-05",
@@ -612,6 +640,7 @@
       "properties": {
         "Name": "Alaska Islands & Ocean Visitor Center",
         "City": "Homer",
+        "Region": "AK",
         "Day": "8",
         "start": "2015-28-05",
         "end": "2015-30-05",
@@ -634,6 +663,7 @@
       "properties": {
         "Name": "Mariner Park",
         "City": "Homer",
+        "Region": "AK",
         "Day": "8",
         "start": "2015-28-05",
         "end": "2015-29-05",
@@ -656,6 +686,7 @@
       "properties": {
         "Name": "Lands End",
         "City": "Homer",
+        "Region": "AK",
         "Day": "8",
         "start": "2015-28-05",
         "end": "2015-29-05",
@@ -678,6 +709,7 @@
       "properties": {
         "Name": "Skyline Drive",
         "City": "Homer",
+        "Region": "AK",
         "Day": "8",
         "start": "2015-28-05",
         "end": "2015-29-05",
@@ -700,6 +732,7 @@
       "properties": {
         "Name": "The Saltry",
         "City": "Halibut Cove",
+        "Region": "AK",
         "Day": "8",
         "start": "2015-28-05",
         "end": "2015-29-05",
@@ -722,6 +755,7 @@
       "properties": {
         "Name": "Lighthouse",
         "City": "Halibut Cove",
+        "Region": "AK",
         "Day": "8",
         "start": "2015-28-05",
         "end": "2015-29-05",
@@ -744,6 +778,7 @@
       "properties": {
         "Name": "Danny J Boat Cruise",
         "City": "Homer",
+        "Region": "AK",
         "Day": "9",
         "start": "2015-28-05",
         "end": "2015-29-05",
@@ -766,6 +801,7 @@
       "properties": {
         "Name": "Halibut Cove Hiking Trail",
         "City": "Halibut Cove",
+        "Region": "AK",
         "Day": "9",
         "start": "2015-28-05",
         "end": "2015-29-05",
@@ -788,6 +824,7 @@
       "properties": {
         "Name": "Salty Dawg Saloon",
         "City": "Homer",
+        "Region": "AK",
         "Day": "8",
         "start": "2015-28-05",
         "end": "2015-29-05",
@@ -810,6 +847,7 @@
       "properties": {
         "Name": "The Bagel Shop",
         "City": "Homer",
+        "Region": "AK",
         "Day": "9",
         "start": "2015-29-05",
         "end": "2015-30-05",
@@ -831,6 +869,7 @@
       "properties": {
         "Name": "Homer Overlook",
         "City": "Homer",
+        "Region": "AK",
         "Day": "9",
         "start": "2015-219-05",
         "end": "2015-30-05",
@@ -853,6 +892,7 @@
       "properties": {
         "Name": "Anchor Point Beach",
         "City": "Anchor Point",
+        "Region": "AK",
         "Day": "9",
         "start": "2015-29-05",
         "end": "2015-30-05",
@@ -875,6 +915,7 @@
       "properties": {
         "Name": "North America's Most Westerly Highway Point",
         "City": "Anchor Point",
+        "Region": "AK",
         "Day": "9",
         "start": "2015-29-05",
         "end": "2015-30-05",
@@ -897,6 +938,7 @@
       "properties": {
         "Name": "The Transfiguration of Our Lord Russian Orthodox Church",
         "City": "Ninilchik",
+        "Region": "AK",
         "Day": "9",
         "start": "2015-29-05",
         "end": "2015-30-05",
@@ -919,6 +961,7 @@
       "properties": {
         "Name": "Kenai Lake Overlook",
         "City": "Cooper's Landing",
+        "Region": "AK",
         "Day": "9",
         "start": "2015-29-05",
         "end": "2015-30-05",
@@ -941,6 +984,7 @@
       "properties": {
         "Name": "Anton Anderson Memorial Tunnel",
         "City": "Whittier",
+        "Region": "AK",
         "Day": "9",
         "start": "2015-29-05",
         "end": "2015-30-05",
@@ -962,6 +1006,7 @@
       "properties": {
         "Name": "Bird Point and Trail",
         "City": "Anchorage",
+        "Region": "AK",
         "Day": "10",
         "start": "2015-29-05",
         "end": "2015-30-05",
@@ -984,6 +1029,7 @@
       "properties": {
         "Name": "Alaska Zoo",
         "City": "Anchorage",
+        "Region": "AK",
         "Day": "10",
         "start": "2015-29-05",
         "end": "2015-30-05",
