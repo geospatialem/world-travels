@@ -2,7 +2,7 @@
 A way to tell a story of world travels, in map form! :earth_americas:
 
 ### Alaska  
-#### May 21st-29th, 2015  
+#### May 21st-30th, 2015  
 * Anchorage  
 * Talkeetna  
 * Healy/Denali  
