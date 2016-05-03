@@ -17,8 +17,14 @@ A way to tell a story of world travels, in map form! :earth_americas:
 * Halibut Cove    
 
 ### Italy  
-#### 2016  
-*Coming soon*  
+#### April 11th-24th, 2016  
+* Rome  
+* Vatican City  
+* Florence  
+* Venice  
+* Pompeii  
+* Sorrento  
+* Capri  
 
 ## Some future options for consideration:  
 1. Tell a story!  
