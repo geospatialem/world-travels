@@ -25,7 +25,8 @@ var visitedCities = L.geoJson(null, {
 	  //Popup
 	  layer.bindLabel(
 			  feature.properties.City, {
-				  noHide: true
+				  noHide: true,
+					clickable: true
 	  });
   }
 });
@@ -62,8 +63,8 @@ $.getJSON("data/highlights.json", function (data) {
 
 //Define the map
 var map = L.map('map', {
-  center: [64.20, -149.49],
-  zoom: 5,
+  center: [0, 0],
+  zoom: 2,
   layers: [mbEmerald, visitedCities, majorHighlights]
 });
 
@@ -88,4 +89,14 @@ if (document.body.clientWidth <= 767) {
 //Legend: Add the Control to the map (Basemap and Overlay layers)
 L.control.layers(baseMaps, overlayMaps, {
 	collapsed: isCollapsed
+}).addTo(map);
+
+// Control button zoom: Alaska
+var alaskaButton = L.easyButton( 'fa-anchor', function(control){
+	map.setView([61.68, -149.05], 6);
+}).addTo(map);
+
+// Control button zoom: Italy
+var italyButton = L.easyButton( 'fa-university', function(control){
+	map.setView([43.08, 12.53], 7);
 }).addTo(map);
