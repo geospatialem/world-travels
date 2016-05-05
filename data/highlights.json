@@ -1058,7 +1058,7 @@
         "end": "2016-21-04",
         "formatDate": "Thursday, April 21, 2016",
         "Comments": "Archaeological site of the remains of the iconic Roman city preserved by Vesuvius' ash.",
-        "Image": "italy/pompei-ruins",
+        "Image": "italy/pompei-scavi",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
@@ -1081,7 +1081,7 @@
         "end": "2016-23-04",
         "formatDate": "Friday, April 22, 2016",
         "Comments": "Coastal and oceanic rock formations eroded by waves",
-        "Image": "italy/faraglioni",
+        "Image": "italy/il-faraglioni",
         "marker-symbol": "camera",
         "marker-color": "#23344c"
       },
