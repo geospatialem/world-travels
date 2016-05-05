@@ -1046,6 +1046,52 @@
           61.1241
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Scavi di Pompei",
+        "City": "Pompei",
+        "Region": "Italy",
+        "Day": "10",
+        "start": "2016-20-04",
+        "end": "2016-21-04",
+        "formatDate": "Thursday, April 21, 2016",
+        "Comments": "Archaeological site of the remains of the iconic Roman city preserved by Vesuvius' ash.",
+        "Image": "italy/pompei-ruins",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4847,
+          40.7493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Faraglioni",
+        "City": "Capri",
+        "Region": "Italy",
+        "Day": "11",
+        "start": "2016-22-04",
+        "end": "2016-23-04",
+        "formatDate": "Friday, April 22, 2016",
+        "Comments": "Coastal and oceanic rock formations eroded by waves",
+        "Image": "italy/faraglioni",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2528,
+          40.5403
+        ]
+      }
     }
   ]
 }
