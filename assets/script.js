@@ -65,7 +65,7 @@ $.getJSON("data/highlights.json", function (data) {
 var map = L.map('map', {
   center: [0, 0],
   zoom: 2,
-  layers: [mbEmerald, visitedCities, majorHighlights]
+  layers: [mbEmerald, visitedCities]
 });
 
 //Legend: Define Basemap and Overlay Layers
@@ -75,8 +75,6 @@ var baseMaps = {
 };
 
 var overlayMaps = {
-		"Cities": visitedCities,
-		"Points of Interest": majorHighlights
 };
 
 //Collapse the legend
@@ -94,7 +92,7 @@ L.control.layers(baseMaps, overlayMaps, {
 // Control button zoom: Alaska
 var alaskaButton = L.easyButton('fa-anchor', function(control){
 	map.setView([61.68, -149.05], 6);
-  this.disable(); //Disables the button on click
+	this.disable(); //Disables the button on click
 }).addTo(map);
 
 // Control button zoom: Italy
@@ -103,7 +101,19 @@ var italyButton = L.easyButton('fa-university', function(control){
 	this.disable(); //Disables the button on click
 }).addTo(map);
 
-//Event listener to re-enable the buttons
+
+/* ***** EVENT LISTENERS ***** */
+// Add or remove layers based on the map zoom, after the zoom has completed.
+map.on('zoomend', function () {
+	/* Visited cities layer */
+	if (map.getZoom() > 7 && map.hasLayer(visitedCities)) { map.removeLayer(visitedCities); }
+	if (map.getZoom() <= 7 && map.hasLayer(visitedCities) == false) { map.addLayer(visitedCities); }
+	/* Major highlights layer */
+	if (map.getZoom() < 6 && map.hasLayer(majorHighlights)) { map.removeLayer(majorHighlights); }
+	if (map.getZoom() >= 6 && map.hasLayer(majorHighlights) == false) { map.addLayer(majorHighlights); }
+});
+
+// Re-enable the buttons on move.
 map.on('move', function(e) {
 	alaskaButton.enable();
 	italyButton.enable();
