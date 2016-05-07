@@ -65,7 +65,7 @@ $.getJSON("data/highlights.json", function (data) {
 var map = L.map('map', {
   center: [0, 0],
   zoom: 2,
-  layers: [mbEmerald, majorHighlights]
+  layers: [mbEmerald, visitedCities, majorHighlights]
 });
 
 //Legend: Define Basemap and Overlay Layers
@@ -105,6 +105,6 @@ var italyButton = L.easyButton('fa-university', function(control){
 
 //Event listener to re-enable the buttons
 map.on('move', function(e) {
-    alaskaButton.enable();
-		italyButton.enable();
+	alaskaButton.enable();
+	italyButton.enable();
 });
