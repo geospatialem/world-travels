@@ -1,14 +1,41 @@
 //Mapbox Access Token
 L.mapbox.accessToken = 'pk.eyJ1IjoiaG9ja2V5ZHVjazMwIiwiYSI6InE4cmFHNlUifQ.X5m_TSatNjZs6Vc7B3_m2A';
 
-//Basemap: Mapbox Emerald
+//Basemap: Mapbox Emerald (Set at lower zooms)
 var mbEmerald = L.tileLayer('https://api.mapbox.com/v4/mapbox.emerald/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaG9ja2V5ZHVjazMwIiwiYSI6InE4cmFHNlUifQ.X5m_TSatNjZs6Vc7B3_m2A', {
+	minZoom: 2,
+	maxZoom: 7,
+	zIndex: 1,
 	attribution: "&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>, <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>"
 });
 
-//Basemap: Mapbox Streets Satellite
+//Basemap: Mapbox Streets Satellite (Set at higher zooms)
 var mbStreetSat = L.tileLayer('https://api.mapbox.com/v4/mapbox.streets-satellite/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaG9ja2V5ZHVjazMwIiwiYSI6InE4cmFHNlUifQ.X5m_TSatNjZs6Vc7B3_m2A', {
+	minZoom: 8,
+	maxZoom: 20,
+	zIndex: 2,
 	attribution: "&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>, <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>"
+});
+
+//Adventures around the Globe
+var adventures = L.geoJson(null, {
+	//TODO: Create an awesome style
+	style: function (feature) {
+		return {
+			color: '#a50f15',
+			opacity: 1
+		};
+  },
+  onEachFeature: function (feature, layer) {
+      layer.bindPopup(
+				"<p><b>" + feature.properties.Adventure + "</b></p>" +
+				"<i>" + feature.properties.Visited + "</i>&#58; " + feature.properties.Description + "<br />" +
+				"<a class='zoomToFeature'>Take me there!</a>"
+			);
+    }
+});
+$.getJSON("data/adventures.json", function (data) {
+  adventures.addData(data);
 });
 
 //Cities Visited
@@ -65,29 +92,8 @@ $.getJSON("data/highlights.json", function (data) {
 var map = L.map('map', {
   center: [0, 0],
   zoom: 2,
-  layers: [mbEmerald, visitedCities]
+  layers: [mbEmerald, mbStreetSat, adventures]
 });
-
-//Legend: Define Basemap and Overlay Layers
-var baseMaps = {
-		"Streets": mbEmerald,
-		"Satellite": mbStreetSat
-};
-
-var overlayMaps = {
-};
-
-//Collapse the legend
-if (document.body.clientWidth <= 767) {
-	isCollapsed = true;
-} else {
-	isCollapsed = false;
-}
-
-//Legend: Add the Control to the map (Basemap and Overlay layers)
-L.control.layers(baseMaps, overlayMaps, {
-	collapsed: isCollapsed
-}).addTo(map);
 
 // Control button zoom: Alaska
 var alaskaButton = L.easyButton('fa-anchor', function(control){
@@ -101,10 +107,13 @@ var italyButton = L.easyButton('fa-university', function(control){
 	this.disable(); //Disables the button on click
 }).addTo(map);
 
-
-/* ***** EVENT LISTENERS ***** */
+/******************************/
+/****** EVENT LISTENERS ******/
+/****************************/
 // Add or remove layers based on the map zoom, after the zoom has completed.
 map.on('zoomend', function () {
+	/* Adventures layer */
+	if (map.getZoom() > 2 && map.hasLayer(adventures)) { map.removeLayer(adventures); }
 	/* Visited cities layer */
 	if (map.getZoom() > 7 && map.hasLayer(visitedCities)) { map.removeLayer(visitedCities); }
 	if (map.getZoom() <= 7 && map.hasLayer(visitedCities) == false) { map.addLayer(visitedCities); }
@@ -117,4 +126,13 @@ map.on('zoomend', function () {
 map.on('move', function(e) {
 	alaskaButton.enable();
 	italyButton.enable();
+});
+
+//Create a zoom to feature on click via the pop-up window
+$('#map').on('click', '.zoomToFeature', function(e, layer) {
+		map.closePopup(); //Close the popup dialog
+		//TODO: On click, zoom to the respective area
+		alert('Feature coming soon! In the meantime, try out the buttons in the upper left hand corner.');
+		//map.setView([61.68, -149.05], 6); //Alaska
+		//map.setView([43.08, 12.53], 7); //Italy
 });

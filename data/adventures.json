@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Adventure": "Alaska",
+        "Visited": "April 2015",
+        "StartDate": "2015-05-21",
+        "EndDate": "2015-05-30",
+        "Days": 11,
+        "Nights": 10,
+        "Description": "The Last Frontier"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-152.1606, 59.2883],
+          [-152.1606, 64.2445],
+          [-146.4916, 64.2445],
+          [-146.4916, 59.2883],
+          [-152.1606, 59.2883]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Adventure": "Italy",
+        "Visited": "May 2016",
+        "StartDate": "2016-04-11",
+        "EndDate": "2016-04-24",
+        "Days": 12,
+        "Nights": 12,
+        "Description": "History, Architecture, Art, Culture, and Food!"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+            [9.4042, 40.3465],
+            [9.4042, 45.6447],
+            [14.9633, 45.6447],
+            [14.9633, 40.3465],
+            [9.4042, 40.3465]
+        ]]
+      }
+    }
+  ]
+}
