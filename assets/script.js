@@ -17,21 +17,55 @@ var mbStreetSat = L.tileLayer('https://api.mapbox.com/v4/mapbox.streets-satellit
 	attribution: "&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>, <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>"
 });
 
+/* Polygon Mouseover Function */
+function polygonMouseOver(e) {
+	var layer = e.target;
+		//Change the polygon style
+		e.target.setStyle({
+				weight: 4,
+				color: '#67000D',
+				fillOpacity: 1,
+				fillOpacity: 0.7,
+				dashArray: ''
+		});
+		//IE & Opera Browser Support
+		if (!L.Browser.ie && !L.Browser.opera) {
+			layer.bringToFront();
+		}
+		//Update the Text Dialog Box
+		textDialogBox.update(layer.feature.properties);
+}
+
+/* Reset Polygon Function */
+function resetPolygon(e) {
+	//Reset the Text Dialog Box
+	textDialogBox.update();
+	 //Reset the polygon style
+	adventures.resetStyle(e.target);
+}
+
+/* Zoom to Feature Function */
+function zoomToFeature(e) {
+	map.fitBounds(e.target.getBounds());
+}
+
 //Adventures around the Globe
 var adventures = L.geoJson(null, {
-	//TODO: Create an awesome style
 	style: function (feature) {
 		return {
 			color: '#a50f15',
+			fillColor: '#fc9272',
+			dashArray: '3',
+			weight: '3',
 			opacity: 1
 		};
   },
   onEachFeature: function (feature, layer) {
-      layer.bindPopup(
-				"<p><b>" + feature.properties.Adventure + "</b></p>" +
-				"<i>" + feature.properties.Visited + "</i>&#58; " + feature.properties.Description + "<br />" +
-				"<a class='zoomToFeature'>Take me there!</a>"
-			);
+		layer.on({
+				mouseover: polygonMouseOver,
+				mouseout: resetPolygon,
+				click: zoomToFeature
+			});
     }
 });
 $.getJSON("data/adventures.json", function (data) {
@@ -107,6 +141,28 @@ var italyButton = L.easyButton('fa-university', function(control){
 	this.disable(); //Disables the button on click
 }).addTo(map);
 
+
+/********************/
+/* TEXT DIALOG BOX */
+/******************/
+var textDialogBox = L.control();
+textDialogBox.onAdd = function (map) {
+    this._div = L.DomUtil.create('div', 'textDialogBox');
+    this.update();
+    return this._div;
+};
+// Update the Text Dialog Box when the properties change
+textDialogBox.update = function (attributes) {
+    this._div.innerHTML = (attributes ?
+				"<h4>" + attributes.Adventure + "</h4>" +
+				"<b><i>" + attributes.Description + "</i></b><br />" +
+				attributes.Days + " days, " + attributes.Nights + " nights<br /><br />" +
+				"<i>Visited " + attributes.Visited + "</i>"
+        : '<b>Hover over an adventure</b>');
+};
+//Add the Text Dialog Box to the Map
+textDialogBox.addTo(map);
+
 /******************************/
 /****** EVENT LISTENERS ******/
 /****************************/
@@ -114,25 +170,25 @@ var italyButton = L.easyButton('fa-university', function(control){
 map.on('zoomend', function () {
 	/* Adventures layer */
 	if (map.getZoom() > 2 && map.hasLayer(adventures)) { map.removeLayer(adventures); }
+	if (map.getZoom() == 2 && map.hasLayer(adventures) == false) { map.addLayer(adventures); }
 	/* Visited cities layer */
-	if (map.getZoom() > 7 && map.hasLayer(visitedCities)) { map.removeLayer(visitedCities); }
+	//TODO: Cleanup the line below to remove visitedCities at the ZoomLayer of 2
+	//This currently has both the visitedCities & adventures layers on (only adventures should be shown)
+	if (map.getZoom() >= 3 && map.getZoom() < 7 && map.hasLayer(visitedCities)) { map.removeLayer(visitedCities); }
 	if (map.getZoom() <= 7 && map.hasLayer(visitedCities) == false) { map.addLayer(visitedCities); }
 	/* Major highlights layer */
+	//TODO: Clean this up
 	if (map.getZoom() < 6 && map.hasLayer(majorHighlights)) { map.removeLayer(majorHighlights); }
 	if (map.getZoom() >= 6 && map.hasLayer(majorHighlights) == false) { map.addLayer(majorHighlights); }
+	/* Text Dialog Box */
+	//TODO: Cleanup the line below to better identify if the textDialogBox is active in the map or not
+	//This currently hiccups when the textDialogBox isn't in the map at higher zooms (> 2)
+	if (map.getZoom() > 2) { textDialogBox.removeFrom(map); }
+	if (map.getZoom() <= 2) { textDialogBox.addTo(map); }
 });
 
 // Re-enable the buttons on move.
 map.on('move', function(e) {
 	alaskaButton.enable();
 	italyButton.enable();
-});
-
-//Create a zoom to feature on click via the pop-up window
-$('#map').on('click', '.zoomToFeature', function(e, layer) {
-		map.closePopup(); //Close the popup dialog
-		//TODO: On click, zoom to the respective area
-		alert('Feature coming soon! In the meantime, try out the buttons in the upper left hand corner.');
-		//map.setView([61.68, -149.05], 6); //Alaska
-		//map.setView([43.08, 12.53], 7); //Italy
 });

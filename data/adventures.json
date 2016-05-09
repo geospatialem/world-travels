@@ -26,13 +26,13 @@
     {
       "type": "Feature",
       "properties": {
-        "Adventure": "Italy",
+        "Adventure": "Italia",
         "Visited": "May 2016",
         "StartDate": "2016-04-11",
         "EndDate": "2016-04-24",
         "Days": 12,
         "Nights": 12,
-        "Description": "History, Architecture, Art, Culture, and Food!"
+        "Description": "When in Rome..."
       },
       "geometry": {
         "type": "Polygon",
