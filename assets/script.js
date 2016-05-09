@@ -129,6 +129,9 @@ var map = L.map('map', {
   layers: [mbEmerald, mbStreetSat, adventures]
 });
 
+//Add coordinate hash
+var hash = new L.Hash(map);
+
 // Control button zoom: Italy
 var homeButton = L.easyButton('fa-home', function(control){
 	map.setView([0, 0], 2);
