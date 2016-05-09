@@ -46,6 +46,7 @@ function resetPolygon(e) {
 
 /* Zoom to Feature Function */
 function zoomToFeature(e) {
+	adventures.resetStyle(e.target);
 	map.fitBounds(e.target.getBounds());
 }
 
