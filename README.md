@@ -1,32 +1,13 @@
 # World Travels  
 A way to tell a story of world travels, in map form! :earth_americas:
 
-### Alaska  
-#### May 21st-30th, 2015  
-* Anchorage  
-* Talkeetna  
-* Healy/Denali  
-* Girdwood  
-* Whittier  
-* Cooper's Landing  
-* Seward  
-* Soldotna  
-* Ninilchik  
-* Anchor Point  
-* Homer  
-* Halibut Cove    
+## Alaska
+ _May 21st-30th, 2015_     
 
-### Italy  
-#### April 11th-24th, 2016  
-* Rome  
-* Vatican City  
-* Florence  
-* Venice  
-* Pompeii  
-* Sorrento  
-* Capri  
+## Italy
+_April 11th-24th, 2016_    
 
-## Some future options for consideration:  
+### Some future options for consideration:  
 1. Tell a story!  
 2. Connect markers with a line  
 3. Navigate to places on a map  
