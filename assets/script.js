@@ -129,6 +129,12 @@ var map = L.map('map', {
   layers: [mbEmerald, mbStreetSat, adventures]
 });
 
+// Control button zoom: Italy
+var homeButton = L.easyButton('fa-home', function(control){
+	map.setView([0, 0], 2);
+	this.disable(); //Disables the button on click
+}).addTo(map);
+
 // Control button zoom: Alaska
 var alaskaButton = L.easyButton('fa-anchor', function(control){
 	map.setView([61.68, -149.05], 6);
@@ -140,7 +146,6 @@ var italyButton = L.easyButton('fa-university', function(control){
 	map.setView([43.08, 12.53], 7);
 	this.disable(); //Disables the button on click
 }).addTo(map);
-
 
 /********************/
 /* TEXT DIALOG BOX */
@@ -166,6 +171,9 @@ textDialogBox.addTo(map);
 /******************************/
 /****** EVENT LISTENERS ******/
 /****************************/
+// Disable the Home button on load
+homeButton.disable();
+
 // Add or remove layers based on the map zoom, after the zoom has completed.
 map.on('zoomend', function () {
 	/* Adventures layer */
@@ -187,8 +195,11 @@ map.on('zoomend', function () {
 	if (map.getZoom() <= 2) { textDialogBox.addTo(map); }
 });
 
+//TODO: Disable buttons more seamlessly when clicked
+
 // Re-enable the buttons on move.
-map.on('move', function(e) {
+map.on('zoomend move click', function(e) {
+	homeButton.enable();
 	alaskaButton.enable();
 	italyButton.enable();
 });
