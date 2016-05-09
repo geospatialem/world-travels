@@ -79,7 +79,7 @@ html, body, #map {
 		box-shadow: 0 0 15px rgba(0,0,0,0.2);
 		border-radius: 5px;
 	}
-	.textDialogBox h4, b {
+	.textDialogBox h4, .textDialogBox b {
 		visibility: hidden;
 	}
 }
