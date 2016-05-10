@@ -12,7 +12,7 @@ var mbEmerald = L.tileLayer('https://api.mapbox.com/v4/mapbox.emerald/{z}/{x}/{y
 //Basemap: Mapbox Streets Satellite (Set at higher zooms)
 var mbStreetSat = L.tileLayer('https://api.mapbox.com/v4/mapbox.streets-satellite/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaG9ja2V5ZHVjazMwIiwiYSI6InE4cmFHNlUifQ.X5m_TSatNjZs6Vc7B3_m2A', {
 	minZoom: 8,
-	maxZoom: 20,
+	maxZoom: 16,
 	zIndex: 2,
 	attribution: "&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>, <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>"
 });
@@ -127,7 +127,9 @@ $.getJSON("data/highlights.json", function (data) {
 var map = L.map('map', {
   center: [0, 0],
   zoom: 2,
-  layers: [mbEmerald, mbStreetSat, adventures]
+  layers: [mbEmerald, mbStreetSat, adventures],
+	minZoom: 2,
+	maxZoom: 16
 });
 
 //Add coordinate hash
@@ -184,19 +186,17 @@ map.on('zoomend', function () {
 	if (map.getZoom() > 2 && map.hasLayer(adventures)) { map.removeLayer(adventures); }
 	if (map.getZoom() == 2 && map.hasLayer(adventures) == false) { map.addLayer(adventures); }
 	/* Visited cities layer */
-	//TODO: Cleanup the line below to remove visitedCities at the ZoomLayer of 2
-	//This currently has both the visitedCities & adventures layers on (only adventures should be shown)
-	if (map.getZoom() >= 3 && map.getZoom() < 7 && map.hasLayer(visitedCities)) { map.removeLayer(visitedCities); }
-	if (map.getZoom() <= 7 && map.hasLayer(visitedCities) == false) { map.addLayer(visitedCities); }
+	if (map.getZoom() <= 2 && map.hasLayer(visitedCities)) { map.removeLayer(visitedCities); }
+	if (map.getZoom() >= 3 && map.getZoom() < 7 && map.hasLayer(visitedCities) == false) { map.addLayer(visitedCities); }
+  if (map.getZoom() >= 8 && map.hasLayer(visitedCities)) { map.removeLayer(visitedCities); }
 	/* Major highlights layer */
-	//TODO: Clean this up
 	if (map.getZoom() < 6 && map.hasLayer(majorHighlights)) { map.removeLayer(majorHighlights); }
 	if (map.getZoom() >= 6 && map.hasLayer(majorHighlights) == false) { map.addLayer(majorHighlights); }
 	/* Text Dialog Box */
 	//TODO: Cleanup the line below to better identify if the textDialogBox is active in the map or not
 	//This currently hiccups when the textDialogBox isn't in the map at higher zooms (> 2)
-	if (map.getZoom() > 2) { textDialogBox.removeFrom(map); }
-	if (map.getZoom() <= 2) { textDialogBox.addTo(map); }
+	/*if (map.getZoom() > 2) { textDialogBox.removeFrom(map); }
+	if (map.getZoom() <= 2) { textDialogBox.addTo(map); }*/
 });
 
 //TODO: Disable buttons more seamlessly when clicked
