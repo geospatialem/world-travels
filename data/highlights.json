@@ -1050,8 +1050,31 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Vineyards",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "9",
+        "start": "2016-19-04",
+        "end": "2016-19-04",
+        "formatDate": "Wednesday, April 20, 2016",
+        "Comments": "A view from Trenitalia between Florence, and Rome.",
+        "Image": "italy/vineyards",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.041325,
+          42.770596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Scavi di Pompei",
-        "City": "Pompei",
+        "City": "Pompeii",
         "Region": "Italy",
         "Day": "10",
         "start": "2016-20-04",
