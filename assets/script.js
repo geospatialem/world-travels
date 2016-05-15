@@ -1,3 +1,6 @@
+//Define the selectedLat, and selectedLng arrays
+selectedLat = [], selectedLng = [];
+
 //Mapbox Access Token
 L.mapbox.accessToken = 'pk.eyJ1IjoiaG9ja2V5ZHVjazMwIiwiYSI6InE4cmFHNlUifQ.X5m_TSatNjZs6Vc7B3_m2A';
 
@@ -102,18 +105,14 @@ var majorHighlights = L.geoJson(null, {
 		//Popup
 		if (feature.properties.Image) {
 	  layer.bindPopup(
-			  "<b>" + feature.properties.Name + "</b><br />" +
-				//TODO: Grab the opened popup coords, and add them to the variables below
-				//"<b>" + feature.properties.Name + "</b> (<i><a class='linkZoomToLocation'>Zoom to location</a></i>) <br />" +
+				"<b>" + feature.properties.Name + "</b> (<i><a class='linkZoomToLocation'>Zoom to location</a></i>) <br />" +
 			  "<i>" + feature.properties.City + ", " + feature.properties.Region + "</i><br />" +
 			  feature.properties.Comments + "<br />" +
 			"<img src='photos/" + feature.properties.Image + ".JPG' width='250' height='200'></img><br />"
 	   );
 	 } else {
 		 layer.bindPopup(
-				 "<b>" + feature.properties.Name + "</b><br />" +
-				 //TODO: Grab the opened popup coords, and add them to the variables below
-				 //"<b>" + feature.properties.Name + "</b> (<i><a class='linkZoomToLocation'>Zoom to location</a></i>) <br />" +
+				 "<b>" + feature.properties.Name + "</b> (<i><a class='linkZoomToLocation'>Zoom to location</a></i>) <br />" +
 				 "<i>" + feature.properties.City + ", " + feature.properties.Region + "</i><br />" +
 				 feature.properties.Comments + "<br />"
 			);
@@ -123,6 +122,7 @@ var majorHighlights = L.geoJson(null, {
 $.getJSON("data/highlights.json", function (data) {
 	majorHighlights.addData(data);
 });
+
 
 /* MAP */
 var map = L.map('map', {
@@ -203,10 +203,21 @@ map.on('zoomend move click', function(e) {
 	italyButton.enable();
 });
 
-//TODO: Grab the opened pop-up coordinates, and add them to the variables below.
-/*$('#map').on('click', '.linkZoomToLocation', function(e) {
-	var selectedLat = 45.4335;
-	var selectedLng = 12.3395;
+// Popup enhnacements once opened
+map.on('popupopen', function(e) {
+		//Center the map when pop-up is opened
+    var projX = map.project(e.popup._latlng);
+    	projX.y -= e.popup._container.clientHeight/2
+	    	map.panTo(map.unproject(projX),{
+					animate: true
+				});
+			//Set the lat/long from the pop-up to the selectedLat and selectedLng arrays (used in the zoomToLocation) pop-up.
+			selectedLat = e.popup._latlng.lat;
+			selectedLng = e.popup._latlng.lng;
+});
+
+/* Pop-up zoomToLocation Link: Grab the opened pop-up coordinates, and add them to the variables below. */
+$('#map').on('click', '.linkZoomToLocation', function(e) {
 	map.setView([selectedLat, selectedLng], 16); //[lat,lng], zoomLevel
 	map.closePopup(); //Close the popup
-});*/
+});
