@@ -193,10 +193,8 @@ map.on('zoomend', function () {
 	if (map.getZoom() < 6 && map.hasLayer(majorHighlights)) { map.removeLayer(majorHighlights); }
 	if (map.getZoom() >= 6 && map.hasLayer(majorHighlights) == false) { map.addLayer(majorHighlights); }
 	/* Text Dialog Box */
-	//TODO: Cleanup the line below to better identify if the textDialogBox is active in the map or not
-	//This currently hiccups when the textDialogBox isn't in the map at higher zooms (> 2)
-	/*if (map.getZoom() > 2) { textDialogBox.removeFrom(map); }
-	if (map.getZoom() <= 2) { textDialogBox.addTo(map); }*/
+	if (map.getZoom() > 2) { $(".textDialogBox").hide(); }
+	if (map.getZoom() == 2) { $(".textDialogBox").show(); }
 });
 
 //TODO: Disable buttons more seamlessly when clicked
