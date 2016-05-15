@@ -32,16 +32,13 @@ function polygonMouseOver(e) {
 		if (!L.Browser.ie && !L.Browser.opera) {
 			layer.bringToFront();
 		}
-		//Update the Text Dialog Box
-		textDialogBox.update(layer.feature.properties);
+		textDialogBox.update(layer.feature.properties); //Update the Text Dialog Box
 }
 
 /* Reset Polygon Function */
 function resetPolygon(e) {
-	//Reset the Text Dialog Box
-	textDialogBox.update();
-	 //Reset the polygon style
-	adventures.resetStyle(e.target);
+	textDialogBox.update(); //Reset the Text Dialog Box
+	adventures.resetStyle(e.target); //Reset the polygon style
 }
 
 /* Zoom to Feature Function */
@@ -50,7 +47,7 @@ function zoomToFeature(e) {
 	map.fitBounds(e.target.getBounds());
 }
 
-//Adventures around the Globe
+/* Adventures around the Globe */
 var adventures = L.geoJson(null, {
 	style: function (feature) {
 		return {
@@ -73,7 +70,7 @@ $.getJSON("data/adventures.json", function (data) {
   adventures.addData(data);
 });
 
-//Cities Visited
+/* Cities Visited */
 var visitedCities = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
 	  return new L.CircleMarker(latlng, {
@@ -96,7 +93,7 @@ $.getJSON("data/cities.json", function (data) {
   visitedCities.addData(data);
 });
 
-//Points of Interest, or Major highlights
+/* Points of Interest, or Major highlights */
 var majorHighlights = L.geoJson(null, {
 	  pointToLayer: L.mapbox.marker.style,
   onEachFeature: function (feature, layer) {
@@ -106,6 +103,8 @@ var majorHighlights = L.geoJson(null, {
 		if (feature.properties.Image) {
 	  layer.bindPopup(
 			  "<b>" + feature.properties.Name + "</b><br />" +
+				//TODO: Grab the opened popup coords, and add them to the variables below
+				//"<b>" + feature.properties.Name + "</b> (<i><a class='linkZoomToLocation'>Zoom to location</a></i>) <br />" +
 			  "<i>" + feature.properties.City + ", " + feature.properties.Region + "</i><br />" +
 			  feature.properties.Comments + "<br />" +
 			"<img src='photos/" + feature.properties.Image + ".JPG' width='250' height='200'></img><br />"
@@ -113,6 +112,8 @@ var majorHighlights = L.geoJson(null, {
 	 } else {
 		 layer.bindPopup(
 				 "<b>" + feature.properties.Name + "</b><br />" +
+				 //TODO: Grab the opened popup coords, and add them to the variables below
+				 //"<b>" + feature.properties.Name + "</b> (<i><a class='linkZoomToLocation'>Zoom to location</a></i>) <br />" +
 				 "<i>" + feature.properties.City + ", " + feature.properties.Region + "</i><br />" +
 				 feature.properties.Comments + "<br />"
 			);
@@ -123,7 +124,7 @@ $.getJSON("data/highlights.json", function (data) {
 	majorHighlights.addData(data);
 });
 
-//Define the map
+/* MAP */
 var map = L.map('map', {
   center: [0, 0],
   zoom: 2,
@@ -132,9 +133,12 @@ var map = L.map('map', {
 	maxZoom: 16
 });
 
-//Add coordinate hash
+
+/* COORDINATE HASH */
 var hash = new L.Hash(map);
 
+
+/* ZOOM BUTTON CONTROLS */
 // Control button zoom: Italy
 var homeButton = L.easyButton('fa-home', function(control){
 	map.setView([0, 0], 2);
@@ -153,9 +157,8 @@ var italyButton = L.easyButton('fa-university', function(control){
 	this.disable(); //Disables the button on click
 }).addTo(map);
 
-/********************/
+
 /* TEXT DIALOG BOX */
-/******************/
 var textDialogBox = L.control();
 textDialogBox.onAdd = function (map) {
     this._div = L.DomUtil.create('div', 'textDialogBox');
@@ -171,15 +174,10 @@ textDialogBox.update = function (attributes) {
 				"<i>Visited " + attributes.Visited + "</i>"
         : '<b>Hover over an adventure</b>');
 };
-//Add the Text Dialog Box to the Map
 textDialogBox.addTo(map);
 
-/******************************/
-/****** EVENT LISTENERS ******/
-/****************************/
-// Disable the Home button on load
-homeButton.disable();
 
+/* EVENT LISTENERS */
 // Add or remove layers based on the map zoom, after the zoom has completed.
 map.on('zoomend', function () {
 	/* Adventures layer */
@@ -197,11 +195,18 @@ map.on('zoomend', function () {
 	if (map.getZoom() == 2) { $(".textDialogBox").show(); }
 });
 
-//TODO: Disable buttons more seamlessly when clicked
-
 // Re-enable the buttons on move.
+//TODO: Disable buttons more seamlessly when clicked
 map.on('zoomend move click', function(e) {
 	homeButton.enable();
 	alaskaButton.enable();
 	italyButton.enable();
 });
+
+//TODO: Grab the opened pop-up coordinates, and add them to the variables below.
+/*$('#map').on('click', '.linkZoomToLocation', function(e) {
+	var selectedLat = 45.4335;
+	var selectedLng = 12.3395;
+	map.setView([selectedLat, selectedLng], 16); //[lat,lng], zoomLevel
+	map.closePopup(); //Close the popup
+});*/
