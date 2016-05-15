@@ -1050,6 +1050,29 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Campanile",
+        "City": "Venice",
+        "Region": "Italy",
+        "Day": "8",
+        "start": "2016-19-04",
+        "end": "2016-19-04",
+        "formatDate": "Tuesday, April 19, 2016",
+        "Comments": "Bell tower of St. Mark's Basilica in Piazza San Marco. Galileo first demonstrated his telescope to Doge, Antonio Priuli in 1609 from the Campanile. Amazing views of the Piazza, and Venice!",
+        "Image": "italy/campanile",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3390,
+          45.4340
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Vineyards",
         "City": "Rome",
         "Region": "Italy",
