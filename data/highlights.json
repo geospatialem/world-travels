@@ -1050,6 +1050,98 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Spanish Steps",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "1",
+        "start": "2016-12-04",
+        "end": "2016-12-04",
+        "formatDate": "Tuesday, April 12, 2016",
+        "Comments": "A set of steps climbing a steep slope between the Piazza di Spagna (base) and Trinità dei Monti Church (top).",
+        "Image": "italy/spanish-steps",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.482818,
+          41.905998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Trevi Fountain",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "1",
+        "start": "2016-12-04",
+        "end": "2016-12-04",
+        "formatDate": "Tuesday, April 12, 2016",
+        "Comments": "The largest Baroque fountain in Rome and one of the most famous fountains in the world.",
+        "Image": "italy/trevi-fountain",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.483325,
+          41.900935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Pantheon",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "1",
+        "start": "2016-12-04",
+        "end": "2016-12-04",
+        "formatDate": "Tuesday, April 12, 2016",
+        "Comments": "Built in 118–128 AD, and one of the best-preserved of all Ancient Roman buildings.",
+        "Image": "italy/pantheon",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.476863,
+          41.898564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Aqueduct Park",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "3",
+        "start": "2016-14-04",
+        "end": "2016-14-04",
+        "formatDate": "Thursday, April 14, 2016",
+        "Comments": "A public park in the city limits. The park is named after the aqueducts that go through it, including Aqua Felix, part of Aqua Claudia, and the remains of Villa delle Vignacce.",
+        "Image": "italy/parco-degli-acquedotti",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.561950,
+          41.845609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Campanile",
         "City": "Venice",
         "Region": "Italy",
