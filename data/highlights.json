@@ -1073,6 +1073,29 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Palazzo Ducale",
+        "City": "Venice",
+        "Region": "Italy",
+        "Day": "8",
+        "start": "2016-19-04",
+        "end": "2016-19-04",
+        "formatDate": "Tuesday, April 19, 2016",
+        "Comments": "A palace built in Venetian Gothic style, and the former residence of the Doge of Venice, the supreme authority of the former Republic of Venice.",
+        "Image": "italy/palazzo-ducale",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.340397,
+          45.433683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Vineyards",
         "City": "Rome",
         "Region": "Italy",
