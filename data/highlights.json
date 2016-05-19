@@ -1119,6 +1119,190 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Arco di Tito",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "2",
+        "start": "2016-13-04",
+        "end": "2016-13-04",
+        "formatDate": "Wednesday, April 13, 2016",
+        "Comments": "An honorific arch located in the Roman Forum. Constructed in 82 AD, by Emperor Domitaian shortly after the death of his older brother Titus to commemorate Titus' victories.",
+        "Image": "italy/arco-di-tito",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.488582,
+          41.890696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Santi Cosma e Damiano",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "2",
+        "start": "2016-13-04",
+        "end": "2016-13-04",
+        "formatDate": "Wednesday, April 13, 2016",
+        "Comments": "The circular building was once at the entrance onto the Forum (not used today) built in the early 4th century as a Roman temple. The best example of doors, made out of Bronze in the Roman Forum.",
+        "Image": "italy/santi-cosma-damiano",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.487212,
+          41.891893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Casa delle Vestali",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "2",
+        "start": "2016-13-04",
+        "end": "2016-13-04",
+        "formatDate": "Wednesday, April 13, 2016",
+        "Comments": "The residence of Vestal Virgins, located in the Roman Forum.",
+        "Image": "italy/casa-delle-vestali",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.486293,
+          41.891515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tempio di Antonio Faustina",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "2",
+        "start": "2016-13-04",
+        "end": "2016-13-04",
+        "formatDate": "Wednesday, April 13, 2016",
+        "Comments": "The temple was built in 141 AD by Emperor Pius and dedicated to his deceased and deified wife, Faustina the Elder. When Pius was deified after his death in 161 AD, the temple was re-dedicated jointly to Antoninus and Faustina at the instigation of his successor, Marcus Aurelius.",
+        "Image": "italy/tempio-di-antonio-faustina",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.486566,
+          41.892035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Colosseo",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "2",
+        "start": "2016-13-04",
+        "end": "2016-13-04",
+        "formatDate": "Wednesday, April 13, 2016",
+        "Comments": "Built in 80 AD of concrete and sand, and it is the largest amphitheatre ever built.",
+        "Image": "italy/colosseo",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.491806,
+          41.891016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Colosseo: Underground",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "2",
+        "start": "2016-13-04",
+        "end": "2016-13-04",
+        "formatDate": "Wednesday, April 13, 2016",
+        "Comments": "The original floor was comprised of wood covered by sand (the Latin word for sand is arena), covering an elaborate underground structure called the hypogeum (underground).",
+        "Image": "italy/colosseo-underground",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.492617,
+          41.890118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Colosseo: From Above",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "2",
+        "start": "2016-13-04",
+        "end": "2016-13-04",
+        "formatDate": "Wednesday, April 13, 2016",
+        "Comments": "The crowd capacity made it essential that the venue could be filled/evacuated. Architects adopted solutions, still used today, to ensure visitors could get in, and out swiftly.",
+        "Image": "italy/colosseo-top",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.491373,
+          41.890561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Arco di Costantino",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "2",
+        "start": "2016-13-04",
+        "end": "2016-13-04",
+        "formatDate": "Wednesday, April 13, 2016",
+        "Comments": "Rome's largest triumphal arch, erected by the Roman Senate to commemorate Constantine I's victory over Maxentius at the Battle of Milvian Bridge in 312 AD.",
+        "Image": "italy/arco-di-costantino",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.490678,
+          41.889779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Aqueduct Park",
         "City": "Rome",
         "Region": "Italy",
