@@ -1053,7 +1053,7 @@
         "Name": "Spanish Steps",
         "City": "Rome",
         "Region": "Italy",
-        "Day": "1",
+        "Day": "2",
         "start": "2016-12-04",
         "end": "2016-12-04",
         "formatDate": "Tuesday, April 12, 2016",
@@ -1076,7 +1076,7 @@
         "Name": "Trevi Fountain",
         "City": "Rome",
         "Region": "Italy",
-        "Day": "1",
+        "Day": "2",
         "start": "2016-12-04",
         "end": "2016-12-04",
         "formatDate": "Tuesday, April 12, 2016",
@@ -1099,7 +1099,7 @@
         "Name": "Pantheon",
         "City": "Rome",
         "Region": "Italy",
-        "Day": "1",
+        "Day": "2",
         "start": "2016-12-04",
         "end": "2016-12-04",
         "formatDate": "Tuesday, April 12, 2016",
@@ -1122,7 +1122,7 @@
         "Name": "Arco di Tito",
         "City": "Rome",
         "Region": "Italy",
-        "Day": "2",
+        "Day": "3",
         "start": "2016-13-04",
         "end": "2016-13-04",
         "formatDate": "Wednesday, April 13, 2016",
@@ -1145,7 +1145,7 @@
         "Name": "Santi Cosma e Damiano",
         "City": "Rome",
         "Region": "Italy",
-        "Day": "2",
+        "Day": "3",
         "start": "2016-13-04",
         "end": "2016-13-04",
         "formatDate": "Wednesday, April 13, 2016",
@@ -1168,7 +1168,7 @@
         "Name": "Casa delle Vestali",
         "City": "Rome",
         "Region": "Italy",
-        "Day": "2",
+        "Day": "3",
         "start": "2016-13-04",
         "end": "2016-13-04",
         "formatDate": "Wednesday, April 13, 2016",
@@ -1191,7 +1191,7 @@
         "Name": "Tempio di Antonio Faustina",
         "City": "Rome",
         "Region": "Italy",
-        "Day": "2",
+        "Day": "3",
         "start": "2016-13-04",
         "end": "2016-13-04",
         "formatDate": "Wednesday, April 13, 2016",
@@ -1214,7 +1214,7 @@
         "Name": "Colosseo",
         "City": "Rome",
         "Region": "Italy",
-        "Day": "2",
+        "Day": "3",
         "start": "2016-13-04",
         "end": "2016-13-04",
         "formatDate": "Wednesday, April 13, 2016",
@@ -1237,7 +1237,7 @@
         "Name": "Colosseo: Underground",
         "City": "Rome",
         "Region": "Italy",
-        "Day": "2",
+        "Day": "3",
         "start": "2016-13-04",
         "end": "2016-13-04",
         "formatDate": "Wednesday, April 13, 2016",
@@ -1260,7 +1260,7 @@
         "Name": "Colosseo: From Above",
         "City": "Rome",
         "Region": "Italy",
-        "Day": "2",
+        "Day": "3",
         "start": "2016-13-04",
         "end": "2016-13-04",
         "formatDate": "Wednesday, April 13, 2016",
@@ -1283,7 +1283,7 @@
         "Name": "Arco di Costantino",
         "City": "Rome",
         "Region": "Italy",
-        "Day": "2",
+        "Day": "3",
         "start": "2016-13-04",
         "end": "2016-13-04",
         "formatDate": "Wednesday, April 13, 2016",
@@ -1306,7 +1306,7 @@
         "Name": "Circo Massimo",
         "City": "Rome",
         "Region": "Italy",
-        "Day": "2",
+        "Day": "3",
         "start": "2016-13-04",
         "end": "2016-13-04",
         "formatDate": "Wednesday, April 13, 2016",
@@ -1328,7 +1328,7 @@
         "Name": "Aventine Hill",
         "City": "Rome",
         "Region": "Italy",
-        "Day": "2",
+        "Day": "3",
         "start": "2016-13-04",
         "end": "2016-13-04",
         "formatDate": "Wednesday, April 13, 2016",
@@ -1351,7 +1351,7 @@
         "Name": "Giardino degli Aranci",
         "City": "Rome",
         "Region": "Italy",
-        "Day": "2",
+        "Day": "3",
         "start": "2016-13-04",
         "end": "2016-13-04",
         "formatDate": "Wednesday, April 13, 2016",
@@ -1374,7 +1374,7 @@
         "Name": "Knights of Malta Keyhole",
         "City": "Rome",
         "Region": "Italy",
-        "Day": "2",
+        "Day": "3",
         "start": "2016-13-04",
         "end": "2016-13-04",
         "formatDate": "Wednesday, April 13, 2016",
@@ -1397,7 +1397,7 @@
         "Name": "Aqueduct Park",
         "City": "Rome",
         "Region": "Italy",
-        "Day": "3",
+        "Day": "4",
         "start": "2016-14-04",
         "end": "2016-14-04",
         "formatDate": "Thursday, April 14, 2016",
@@ -1411,6 +1411,52 @@
         "coordinates": [
           12.561950,
           41.845609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Bramante Staircase",
+        "City": "Vatican City",
+        "Region": "Vatican City",
+        "Day": "5",
+        "start": "2016-14-04",
+        "end": "2016-14-04",
+        "formatDate": "Thursday, April 14, 2016",
+        "Comments": "'The original' Bramante staircase built in 1505 to a design by Donato Bramante. It was built to allow Pope Julius II to enter his private residence while still in his carriage.",
+        "Image": "italy/bramante-staircase",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.455163,
+          41.906539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Palazzo Ducale",
+        "City": "Venice",
+        "Region": "Italy",
+        "Day": "7",
+        "start": "2016-18-04",
+        "end": "2016-18-04",
+        "formatDate": "Tuesday, April 19, 2016",
+        "Comments": "A palace built in Venetian Gothic style, and the former residence of the Doge of Venice, the supreme authority of the former Republic of Venice.",
+        "Image": "italy/palazzo-ducale",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.340397,
+          45.433683
         ]
       }
     },
@@ -1434,29 +1480,6 @@
         "coordinates": [
           12.3390,
           45.4340
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "Palazzo Ducale",
-        "City": "Venice",
-        "Region": "Italy",
-        "Day": "8",
-        "start": "2016-19-04",
-        "end": "2016-19-04",
-        "formatDate": "Tuesday, April 19, 2016",
-        "Comments": "A palace built in Venetian Gothic style, and the former residence of the Doge of Venice, the supreme authority of the former Republic of Venice.",
-        "Image": "italy/palazzo-ducale",
-        "marker-symbol": "camera",
-        "marker-color": "#23344c"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.340397,
-          45.433683
         ]
       }
     },
