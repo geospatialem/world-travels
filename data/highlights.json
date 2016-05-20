@@ -1303,6 +1303,97 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Circo Massimo",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "2",
+        "start": "2016-13-04",
+        "end": "2016-13-04",
+        "formatDate": "Wednesday, April 13, 2016",
+        "Comments": "An ancient Roman chariot racing stadium and mass entertainment venue that accomodated 150,000 spectators.",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.485131,
+          41.886130
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Aventine Hill",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "2",
+        "start": "2016-13-04",
+        "end": "2016-13-04",
+        "formatDate": "Wednesday, April 13, 2016",
+        "Comments": "The southernmost of Rome's seven hills.",
+        "Image": "italy/aventine-hill",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.479834,
+          41.885339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Giardino degli Aranci",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "2",
+        "start": "2016-13-04",
+        "end": "2016-13-04",
+        "formatDate": "Wednesday, April 13, 2016",
+        "Comments": "Secluded public square with fragrant orange trees, medieval walls & views over the city & Tiber River.",
+        "Image": "italy/aventine-oranges",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.480466,
+          41.885162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Knights of Malta Keyhole",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "2",
+        "start": "2016-13-04",
+        "end": "2016-13-04",
+        "formatDate": "Wednesday, April 13, 2016",
+        "Comments": "W-O-W-! Peek through this keyhole on a piazza designed by Piranesi in 1765, and you will see a garden path that ends with bushes perfectly framing the dome of St. Peter's in the distance.",
+        "Image": "italy/malta-keyhole",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.478469,
+          41.882982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Aqueduct Park",
         "City": "Rome",
         "Region": "Italy",
