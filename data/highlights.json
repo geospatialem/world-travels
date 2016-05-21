@@ -1105,7 +1105,7 @@
         "formatDate": "Tuesday, April 12, 2016",
         "Comments": "Built in 118–128 AD, and one of the best-preserved of all Ancient Roman buildings.",
         "Image": "italy/pantheon",
-        "marker-symbol": "camera",
+        "marker-symbol": "place-of-worship",
         "marker-color": "#23344c"
       },
       "geometry": {
@@ -1128,7 +1128,7 @@
         "formatDate": "Wednesday, April 13, 2016",
         "Comments": "An honorific arch located in the Roman Forum. Constructed in 82 AD, by Emperor Domitaian shortly after the death of his older brother Titus to commemorate Titus' victories.",
         "Image": "italy/arco-di-tito",
-        "marker-symbol": "camera",
+        "marker-symbol": "monument",
         "marker-color": "#23344c"
       },
       "geometry": {
@@ -1151,7 +1151,7 @@
         "formatDate": "Wednesday, April 13, 2016",
         "Comments": "The circular building was once at the entrance onto the Forum (not used today) built in the early 4th century as a Roman temple. The best example of doors, made out of Bronze in the Roman Forum.",
         "Image": "italy/santi-cosma-damiano",
-        "marker-symbol": "camera",
+        "marker-symbol": "place-of-worship",
         "marker-color": "#23344c"
       },
       "geometry": {
@@ -1197,7 +1197,7 @@
         "formatDate": "Wednesday, April 13, 2016",
         "Comments": "The temple was built in 141 AD by Emperor Pius and dedicated to his deceased and deified wife, Faustina the Elder. When Pius was deified after his death in 161 AD, the temple was re-dedicated jointly to Antoninus and Faustina at the instigation of his successor, Marcus Aurelius.",
         "Image": "italy/tempio-di-antonio-faustina",
-        "marker-symbol": "camera",
+        "marker-symbol": "place-of-worship",
         "marker-color": "#23344c"
       },
       "geometry": {
@@ -1220,7 +1220,7 @@
         "formatDate": "Wednesday, April 13, 2016",
         "Comments": "Built in 80 AD of concrete and sand, and it is the largest amphitheatre ever built.",
         "Image": "italy/colosseo",
-        "marker-symbol": "camera",
+        "marker-symbol": "museum",
         "marker-color": "#23344c"
       },
       "geometry": {
@@ -1243,7 +1243,7 @@
         "formatDate": "Wednesday, April 13, 2016",
         "Comments": "The original floor was comprised of wood covered by sand (the Latin word for sand is arena), covering an elaborate underground structure called the hypogeum (underground).",
         "Image": "italy/colosseo-underground",
-        "marker-symbol": "camera",
+        "marker-symbol": "museum",
         "marker-color": "#23344c"
       },
       "geometry": {
@@ -1266,7 +1266,7 @@
         "formatDate": "Wednesday, April 13, 2016",
         "Comments": "The crowd capacity made it essential that the venue could be filled/evacuated. Architects adopted solutions, still used today, to ensure visitors could get in, and out swiftly.",
         "Image": "italy/colosseo-top",
-        "marker-symbol": "camera",
+        "marker-symbol": "museum",
         "marker-color": "#23344c"
       },
       "geometry": {
@@ -1289,7 +1289,7 @@
         "formatDate": "Wednesday, April 13, 2016",
         "Comments": "Rome's largest triumphal arch, erected by the Roman Senate to commemorate Constantine I's victory over Maxentius at the Battle of Milvian Bridge in 312 AD.",
         "Image": "italy/arco-di-costantino",
-        "marker-symbol": "camera",
+        "marker-symbol": "monument",
         "marker-color": "#23344c"
       },
       "geometry": {
@@ -1311,7 +1311,8 @@
         "end": "2016-13-04",
         "formatDate": "Wednesday, April 13, 2016",
         "Comments": "An ancient Roman chariot racing stadium and mass entertainment venue that accomodated 150,000 spectators.",
-        "marker-symbol": "camera",
+        "Image": "italy/circo-massimo",
+        "marker-symbol": "park2",
         "marker-color": "#23344c"
       },
       "geometry": {
@@ -1357,7 +1358,7 @@
         "formatDate": "Wednesday, April 13, 2016",
         "Comments": "Secluded public square with fragrant orange trees, medieval walls & views over the city & Tiber River.",
         "Image": "italy/aventine-oranges",
-        "marker-symbol": "camera",
+        "marker-symbol": "park2",
         "marker-color": "#23344c"
       },
       "geometry": {
@@ -1394,6 +1395,97 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Map Gallery",
+        "City": "Vatican City",
+        "Region": "Vatican City",
+        "Day": "4",
+        "start": "2016-14-04",
+        "end": "2016-14-04",
+        "formatDate": "Thursday, April 14, 2016",
+        "Comments": "O.M.G. Maps!",
+        "Image": "italy/map-gallery",
+        "marker-symbol": "museum",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.454279,
+          41.904148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sistine Chapel",
+        "City": "Vatican City",
+        "Region": "Vatican City",
+        "Day": "4",
+        "start": "2016-14-04",
+        "end": "2016-14-04",
+        "formatDate": "Thursday, April 14, 2016",
+        "Comments": "Breathtaking. Photos and talking are prohibited in the Chapel.",
+        "marker-symbol": "religious-christian",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.454492,
+          41.902954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Basilica di San Pietro",
+        "City": "Vatican City",
+        "Region": "Vatican City",
+        "Day": "4",
+        "start": "2016-14-04",
+        "end": "2016-14-04",
+        "formatDate": "Thursday, April 14, 2016",
+        "Comments": "Breathtaking. Largest Christian Basilica in the world. If you climb the Cupola, halfway up you will see this shot.",
+        "Image": "italy/st-peter-basilica",
+        "marker-symbol": "religious-christian",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.453927,
+          41.902165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "St. Peter Cupola",
+        "City": "Vatican City",
+        "Region": "Vatican City",
+        "Day": "4",
+        "start": "2016-14-04",
+        "end": "2016-14-04",
+        "formatDate": "Thursday, April 14, 2016",
+        "Comments": "Breathtaking views! A MUST while traveling to Vatican City. There is a cost (&euro;5) to scale the 551 steps to the top that go through narrow passages. There is a lift that will save 320 steps (&euro;7).",
+        "Image": "italy/st-peter-cupola",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.453210,
+          41.902168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Aqueduct Park",
         "City": "Rome",
         "Region": "Italy",
@@ -1411,6 +1503,52 @@
         "coordinates": [
           12.561950,
           41.845609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Historic Vatican Entrance",
+        "City": "Vatican City",
+        "Region": "Vatican City",
+        "Day": "5",
+        "start": "2016-14-04",
+        "end": "2016-14-04",
+        "formatDate": "Thursday, April 14, 2016",
+        "Comments": "The original public entrance to Vatican City.",
+        "Image": "italy/vatican-entrance",
+        "marker-symbol": "museum",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.453499,
+          41.906752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Cortile della Biblioteca",
+        "City": "Vatican City",
+        "Region": "Vatican City",
+        "Day": "5",
+        "start": "2016-14-04",
+        "end": "2016-14-04",
+        "formatDate": "Thursday, April 14, 2016",
+        "Comments": "Beautiful statues!",
+        "Image": "italy/vatican-courtyard-statue",
+        "marker-symbol": "museum",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.454641,
+          41.905000
         ]
       }
     },
@@ -1440,6 +1578,74 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Fontana della Galera nei Giardini Vaticani",
+        "City": "Vatican City",
+        "Region": "Vatican City",
+        "Day": "5",
+        "start": "2016-14-04",
+        "end": "2016-14-04",
+        "formatDate": "Thursday, April 14, 2016",
+        "Comments": "The fountain was created as a replica of a Galleon of the Papal Fleet by famed architect Hans Van Zanten.",
+        "Image": "italy/vatican-fountain-galley",
+        "marker-symbol": "camera",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.455194,
+          41.906321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tomba di San Pietro",
+        "City": "Vatican City",
+        "Region": "Vatican City",
+        "Day": "4",
+        "start": "2016-14-04",
+        "end": "2016-14-04",
+        "formatDate": "Thursday, April 14, 2016",
+        "Comments": "Tombs of the Popes (located underneath the Basilica). Photos and talking are prohibited in the Tomb.",
+        "marker-symbol": "religious-christian",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.453430,
+          41.902362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Castel Sant'Angelo",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "5",
+        "start": "2016-14-04",
+        "end": "2016-14-04",
+        "formatDate": "Thursday, April 14, 2016",
+        "Comments": "",
+        "Image": "italy/castel-santangelo",
+        "marker-symbol": "museum",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.466268,
+          41.903054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Palazzo Ducale",
         "City": "Venice",
         "Region": "Italy",
@@ -1449,7 +1655,7 @@
         "formatDate": "Tuesday, April 19, 2016",
         "Comments": "A palace built in Venetian Gothic style, and the former residence of the Doge of Venice, the supreme authority of the former Republic of Venice.",
         "Image": "italy/palazzo-ducale",
-        "marker-symbol": "camera",
+        "marker-symbol": "museum",
         "marker-color": "#23344c"
       },
       "geometry": {
@@ -1472,7 +1678,7 @@
         "formatDate": "Tuesday, April 19, 2016",
         "Comments": "Bell tower of St. Mark's Basilica in Piazza San Marco. Galileo first demonstrated his telescope to Doge, Antonio Priuli in 1609 from the Campanile. Amazing views of the Piazza, and Venice!",
         "Image": "italy/campanile",
-        "marker-symbol": "camera",
+        "marker-symbol": "monument",
         "marker-color": "#23344c"
       },
       "geometry": {
@@ -1518,7 +1724,7 @@
         "formatDate": "Thursday, April 21, 2016",
         "Comments": "Archaeological site of the remains of the iconic Roman city preserved by Vesuvius' ash.",
         "Image": "italy/pompei-scavi",
-        "marker-symbol": "camera",
+        "marker-symbol": "museum",
         "marker-color": "#23344c"
       },
       "geometry": {
