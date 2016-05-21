@@ -1,8 +1,10 @@
 # World Travels  
 A way to tell a story of world travels, in map form! :earth_americas:
 
-## Data notes
-**No photos have been modified from their original version.** However, all have been reduced in size in order to load quickly on desktop, and mobile devices.
+## Photo Notes
+**No photos have been modified from their original version.** However, all photos have been reduced in size to load quickly on desktop, and mobile devices.
+
+**All Photos © Kitty Hurley**
 
 ## Highlights
 ### Alaska  
