@@ -1646,10 +1646,33 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Cattedrale di Santa Maria del Fiore",
+        "City": "Firenze",
+        "Region": "Italy",
+        "Day": "7",
+        "start": "2016-14-04",
+        "end": "2016-14-04",
+        "formatDate": "Thursday, April 14, 2016",
+        "Comments": "It took 140 years to construct finishing in 1436, without the facade. In 1887 the facade, which includes Italy's green and red colors, was finally finished after Florence became Italy's capitol (for 5 years).",
+        "Image": "italy/duomo",
+        "marker-symbol": "religious-christian",
+        "marker-color": "#23344c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.255997,
+          43.773128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Palazzo Ducale",
         "City": "Venice",
         "Region": "Italy",
-        "Day": "7",
+        "Day": "8",
         "start": "2016-18-04",
         "end": "2016-18-04",
         "formatDate": "Tuesday, April 19, 2016",
@@ -1672,7 +1695,7 @@
         "Name": "Campanile",
         "City": "Venice",
         "Region": "Italy",
-        "Day": "8",
+        "Day": "9",
         "start": "2016-19-04",
         "end": "2016-19-04",
         "formatDate": "Tuesday, April 19, 2016",
@@ -1695,7 +1718,7 @@
         "Name": "Vineyards",
         "City": "Rome",
         "Region": "Italy",
-        "Day": "9",
+        "Day": "10",
         "start": "2016-19-04",
         "end": "2016-19-04",
         "formatDate": "Wednesday, April 20, 2016",
@@ -1718,7 +1741,7 @@
         "Name": "Scavi di Pompei",
         "City": "Pompeii",
         "Region": "Italy",
-        "Day": "10",
+        "Day": "11",
         "start": "2016-20-04",
         "end": "2016-21-04",
         "formatDate": "Thursday, April 21, 2016",
@@ -1741,7 +1764,7 @@
         "Name": "Faraglioni",
         "City": "Capri",
         "Region": "Italy",
-        "Day": "11",
+        "Day": "12",
         "start": "2016-22-04",
         "end": "2016-23-04",
         "formatDate": "Friday, April 22, 2016",
