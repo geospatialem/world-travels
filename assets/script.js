@@ -100,6 +100,13 @@ $.getJSON("data/cities.json", function (data) {
 var majorHighlights = L.geoJson(null, {
 	  pointToLayer: L.mapbox.marker.style,
   onEachFeature: function (feature, layer) {
+		//TODO: Set the style to the color
+		//See lines 134-144 below.
+		layer.on({
+			click: hoverColor,
+			mouseover: hoverColor,
+			mouseout: resetColor
+		});
 		layer.options.riseOnHover = true; //Rise each feature on hover
 		layer.options.title = feature.properties.Name; //Add a title on hover
 		//Popup
@@ -122,6 +129,17 @@ var majorHighlights = L.geoJson(null, {
 $.getJSON("data/highlights.json", function (data) {
 	majorHighlights.addData(data);
 });
+
+
+function hoverColor (e) {
+	var hoverColor = e.target.feature.properties['marker-color'] = '#D73027';
+	console.log(hoverColor); //testing
+}
+
+function resetColor (e) {
+	var resetColor = e.target.feature.properties['marker-color'] = '#39B7CD';
+	console.log(resetColor); //testing
+}
 
 
 /* MAP */
