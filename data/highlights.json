@@ -15,7 +15,7 @@
         "Image": "alaska/earthquake-park",
         "marker-symbol": "park",
         "marker-color": "#39B7CD",
-        "icon": "park"
+        "iconSymbol": "park"
       },
       "geometry": {
         "type": "Point",
@@ -37,7 +37,7 @@
         "Comments": "There is a Grill (Mexican cuisine) and Theatrepub (pizza). They are seperate resteraunts, but equally as good in taste. The beer is delicious. Highly recommended.",
         "marker-symbol": "restaurant",
         "marker-color": "#39B7CD",
-        "icon": "restaurant"
+        "iconSymbol": "restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -61,7 +61,7 @@
         "Image": "alaska/bicentennial-park",
         "marker-symbol": "park",
         "marker-color": "#39B7CD",
-        "icon": "park"
+        "iconSymbol": "park"
       },
       "geometry": {
         "type": "Point",
@@ -86,7 +86,7 @@
         "stroke": "#39B7CD",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "icon": ""
+        "iconSymbol": ""
       },
       "geometry": {
         "type": "LineString",
@@ -400,7 +400,7 @@
         "Image": "alaska/glacier-landing",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -423,7 +423,7 @@
         "Comments": "Delicious breakfast food at an extremely reasonable price. Come hungry, and expect large quantities of food on your plate.",
         "marker-symbol": "restaurant",
         "marker-color": "#39B7CD",
-        "icon": "restaurant"
+        "iconSymbol": "restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -2032,7 +2032,7 @@
         "Comments": "Decent pizza locale near the Denali Park entrance.",
         "marker-symbol": "restaurant",
         "marker-color": "#39B7CD",
-        "icon": "restaurant"
+        "iconSymbol": "restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -2056,7 +2056,7 @@
         "Image": "alaska/denali-south",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -2080,7 +2080,7 @@
         "Image": "alaska/flattop-mountain",
         "marker-symbol": "park",
         "marker-color": "#39B7CD",
-        "icon": "park"
+        "iconSymbol": "park"
       },
       "geometry": {
         "type": "Point",
@@ -2104,7 +2104,7 @@
         "Image": "alaska/potter-marsh",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -2128,7 +2128,7 @@
         "Image": "alaska/beluga-point",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -2152,7 +2152,7 @@
         "Image": "alaska/wildlife-center",
         "marker-symbol": "zoo",
         "marker-color": "#39B7CD",
-        "icon": "zoo"
+        "iconSymbol": "zoo"
       },
       "geometry": {
         "type": "Point",
@@ -2175,7 +2175,7 @@
         "Comments": "Amazing American cuisine (including local specialties) for a good price. Highly recommended!",
         "marker-symbol": "restaurant",
         "marker-color": "#39B7CD",
-        "icon": "restaurant"
+        "iconSymbol": "restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -2533,7 +2533,7 @@
         "Image": "alaska/fox-island",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -2556,7 +2556,7 @@
         "Comments": "See countless birds species, called the hive due to the sounds heard (similar to a bee hive for birds).",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -2580,7 +2580,7 @@
         "Image": "alaska/bear-glacier",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -2604,7 +2604,7 @@
         "Image": "alaska/no-name-island",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -2628,7 +2628,7 @@
         "Image": "alaska/holgate-glacier",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -2651,7 +2651,7 @@
         "Comments": "Pedersen Glacier eceded throughout the 20th century exposing Pedersen Spit and Pedersen Lagoon that includes a beautiful habitat.",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -2675,7 +2675,7 @@
         "Image": "alaska/aialik-glacier",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -2699,7 +2699,7 @@
         "Image": "alaska/exit-glacier",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -2722,7 +2722,7 @@
         "Comments": "Grab a brew (or flight) and some local fresh cuisine! Recently remodeled, and a great updated menu! Great souvenirs glasses!",
         "marker-symbol": "restaurant",
         "marker-color": "#39B7CD",
-        "icon": "restaurant"
+        "iconSymbol": "restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -2746,7 +2746,7 @@
         "Image": "alaska/sealife-center",
         "marker-symbol": "zoo",
         "marker-color": "#39B7CD",
-        "icon": "zoo"
+        "iconSymbol": "zoo"
       },
       "geometry": {
         "type": "Point",
@@ -2769,7 +2769,7 @@
         "Comments": "Local brewery with decent cuisine. The decor is... different.",
         "marker-symbol": "restaurant",
         "marker-color": "#39B7CD",
-        "icon": "restaurant"
+        "iconSymbol": "restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -2792,7 +2792,7 @@
         "Comments": "BEST. COFFEE. EVER!",
         "marker-symbol": "cafe",
         "marker-color": "#39B7CD",
-        "icon": "cafe"
+        "iconSymbol": "cafe"
       },
       "geometry": {
         "type": "Point",
@@ -2816,7 +2816,7 @@
         "Image": "alaska/duncan-house",
         "marker-symbol": "restaurant",
         "marker-color": "#39B7CD",
-        "icon": "restaurant"
+        "iconSymbol": "restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -2840,7 +2840,7 @@
         "Image": "alaska/alaska-islands",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -2864,7 +2864,7 @@
         "Image": "alaska/mariner-park",
         "marker-symbol": "park",
         "marker-color": "#39B7CD",
-        "icon": "park"
+        "iconSymbol": "park"
       },
       "geometry": {
         "type": "Point",
@@ -2888,7 +2888,7 @@
         "Image": "alaska/lands-end",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -2912,7 +2912,7 @@
         "Image": "alaska/skyline-drive",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -2936,7 +2936,7 @@
         "Image": "alaska/the-saltry",
         "marker-symbol": "restaurant",
         "marker-color": "#39B7CD",
-        "icon": "restaurant"
+        "iconSymbol": "restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -2960,7 +2960,7 @@
         "Image": "alaska/lighthouse",
         "marker-symbol": "lighthouse",
         "marker-color": "#39B7CD",
-        "icon": "lighthouse"
+        "iconSymbol": "lighthouse"
       },
       "geometry": {
         "type": "Point",
@@ -3176,7 +3176,7 @@
         "Image": "alaska/salty-dawg",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -3199,7 +3199,7 @@
         "Comments": "Super delicious fresh bagels. Get a bagel, make a sandwich, or do a schmear.",
         "marker-symbol": "restaurant",
         "marker-color": "#39B7CD",
-        "icon": "restaurant"
+        "iconSymbol": "restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -3223,7 +3223,7 @@
         "Image": "alaska/homer-overlook",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -3247,7 +3247,7 @@
         "Image": "alaska/anchor-beach",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -3271,7 +3271,7 @@
         "Image": "alaska/west-highway",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -3295,7 +3295,7 @@
         "Image": "alaska/russian-church",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -3319,7 +3319,7 @@
         "Image": "alaska/kenai-lake",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -3342,7 +3342,7 @@
         "Comments": "The longest railroad highway tunnel in North America.",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -3366,7 +3366,7 @@
         "Image": "alaska/bird-point",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -3390,7 +3390,7 @@
         "Image": "alaska/alaska-zoo",
         "marker-symbol": "zoo",
         "marker-color": "#39B7CD",
-        "icon": "zoo"
+        "iconSymbol": "zoo"
       },
       "geometry": {
         "type": "Point",
@@ -3414,7 +3414,7 @@
         "Image": "italy/spanish-steps",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -3438,7 +3438,7 @@
         "Image": "italy/trevi-fountain",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -3462,7 +3462,7 @@
         "Image": "italy/pantheon",
         "marker-symbol": "place-of-worship",
         "marker-color": "#39B7CD",
-        "icon": "place-of-worship"
+        "iconSymbol": "place-of-worship"
       },
       "geometry": {
         "type": "Point",
@@ -3486,7 +3486,7 @@
         "Image": "italy/arco-di-tito",
         "marker-symbol": "monument",
         "marker-color": "#39B7CD",
-        "icon": "monument"
+        "iconSymbol": "monument"
       },
       "geometry": {
         "type": "Point",
@@ -3510,7 +3510,7 @@
         "Image": "italy/santi-cosma-damiano",
         "marker-symbol": "place-of-worship",
         "marker-color": "#39B7CD",
-        "icon": "place-of-worship"
+        "iconSymbol": "place-of-worship"
       },
       "geometry": {
         "type": "Point",
@@ -3534,7 +3534,7 @@
         "Image": "italy/casa-delle-vestali",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -3558,7 +3558,7 @@
         "Image": "italy/tempio-di-antonio-faustina",
         "marker-symbol": "place-of-worship",
         "marker-color": "#39B7CD",
-        "icon": "place-of-worship"
+        "iconSymbol": "place-of-worship"
       },
       "geometry": {
         "type": "Point",
@@ -3582,7 +3582,7 @@
         "Image": "italy/colosseo",
         "marker-symbol": "museum",
         "marker-color": "#39B7CD",
-        "icon": "museum"
+        "iconSymbol": "museum"
       },
       "geometry": {
         "type": "Point",
@@ -3606,7 +3606,7 @@
         "Image": "italy/colosseo-underground",
         "marker-symbol": "museum",
         "marker-color": "#39B7CD",
-        "icon": "museum"
+        "iconSymbol": "museum"
       },
       "geometry": {
         "type": "Point",
@@ -3630,7 +3630,7 @@
         "Image": "italy/colosseo-top",
         "marker-symbol": "museum",
         "marker-color": "#39B7CD",
-        "icon": "museum"
+        "iconSymbol": "museum"
       },
       "geometry": {
         "type": "Point",
@@ -3654,7 +3654,7 @@
         "Image": "italy/arco-di-costantino",
         "marker-symbol": "monument",
         "marker-color": "#39B7CD",
-        "icon": "monument"
+        "iconSymbol": "monument"
       },
       "geometry": {
         "type": "Point",
@@ -3678,7 +3678,7 @@
         "Image": "italy/circo-massimo",
         "marker-symbol": "park2",
         "marker-color": "#39B7CD",
-        "icon": "park2"
+        "iconSymbol": "park2"
       },
       "geometry": {
         "type": "Point",
@@ -3702,7 +3702,7 @@
         "Image": "italy/aventine-hill",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -3726,7 +3726,7 @@
         "Image": "italy/aventine-oranges",
         "marker-symbol": "park2",
         "marker-color": "#39B7CD",
-        "icon": "park2"
+        "iconSymbol": "park2"
       },
       "geometry": {
         "type": "Point",
@@ -3750,7 +3750,7 @@
         "Image": "italy/malta-keyhole",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -3774,7 +3774,7 @@
         "Image": "italy/map-gallery",
         "marker-symbol": "museum",
         "marker-color": "#39B7CD",
-        "icon": "museum"
+        "iconSymbol": "museum"
       },
       "geometry": {
         "type": "Point",
@@ -3797,7 +3797,7 @@
         "Comments": "Breathtaking. Photos and talking are prohibited in the Chapel.",
         "marker-symbol": "religious-christian",
         "marker-color": "#39B7CD",
-        "icon": "religious-christian"
+        "iconSymbol": "religious-christian"
       },
       "geometry": {
         "type": "Point",
@@ -3821,7 +3821,7 @@
         "Image": "italy/st-peter-basilica",
         "marker-symbol": "religious-christian",
         "marker-color": "#39B7CD",
-        "icon": "religious-christian"
+        "iconSymbol": "religious-christian"
       },
       "geometry": {
         "type": "Point",
@@ -3845,7 +3845,7 @@
         "Image": "italy/st-peter-cupola",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -3869,7 +3869,7 @@
         "Image": "italy/parco-degli-acquedotti",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -3893,7 +3893,7 @@
         "Image": "italy/vatican-entrance",
         "marker-symbol": "museum",
         "marker-color": "#39B7CD",
-        "icon": "museum"
+        "iconSymbol": "museum"
       },
       "geometry": {
         "type": "Point",
@@ -3917,7 +3917,7 @@
         "Image": "italy/vatican-courtyard-statue",
         "marker-symbol": "museum",
         "marker-color": "#39B7CD",
-        "icon": "museum"
+        "iconSymbol": "museum"
       },
       "geometry": {
         "type": "Point",
@@ -3941,7 +3941,7 @@
         "Image": "italy/bramante-staircase",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -3965,7 +3965,7 @@
         "Image": "italy/vatican-fountain-galley",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -3988,7 +3988,7 @@
         "Comments": "Tombs of the Popes (located underneath the Basilica). Photos and talking are prohibited in the Tomb.",
         "marker-symbol": "religious-christian",
         "marker-color": "#39B7CD",
-        "icon": "religious-christian"
+        "iconSymbol": "religious-christian"
       },
       "geometry": {
         "type": "Point",
@@ -4012,7 +4012,7 @@
         "Image": "italy/castel-santangelo",
         "marker-symbol": "museum",
         "marker-color": "#39B7CD",
-        "icon": "museum"
+        "iconSymbol": "museum"
       },
       "geometry": {
         "type": "Point",
@@ -4036,7 +4036,7 @@
         "Image": "italy/duomo",
         "marker-symbol": "religious-christian",
         "marker-color": "#39B7CD",
-        "icon": "religious-christian"
+        "iconSymbol": "religious-christian"
       },
       "geometry": {
         "type": "Point",
@@ -4060,7 +4060,7 @@
         "Image": "italy/palazzo-ducale",
         "marker-symbol": "museum",
         "marker-color": "#39B7CD",
-        "icon": "museum"
+        "iconSymbol": "museum"
       },
       "geometry": {
         "type": "Point",
@@ -4084,7 +4084,7 @@
         "Image": "italy/campanile",
         "marker-symbol": "monument",
         "marker-color": "#39B7CD",
-        "icon": "monument"
+        "iconSymbol": "monument"
       },
       "geometry": {
         "type": "Point",
@@ -4108,7 +4108,7 @@
         "Image": "italy/vineyards",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
@@ -4132,7 +4132,7 @@
         "Image": "italy/pompei-scavi",
         "marker-symbol": "museum",
         "marker-color": "#39B7CD",
-        "icon": "museum"
+        "iconSymbol": "museum"
       },
       "geometry": {
         "type": "Point",
@@ -4156,7 +4156,7 @@
         "Image": "italy/il-faraglioni",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "icon": "camera"
+        "iconSymbol": "camera"
       },
       "geometry": {
         "type": "Point",
