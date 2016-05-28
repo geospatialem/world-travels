@@ -98,10 +98,14 @@ $.getJSON("data/cities.json", function (data) {
 
 /* Points of Interest, or Major highlights */
 var majorHighlights = L.geoJson(null, {
-	  pointToLayer: L.mapbox.marker.style,
+	pointToLayer: L.mapbox.marker.style, //Set point style
   onEachFeature: function (feature, layer) {
-		//TODO: Set the style to the color
-		//See lines 134-144 below.
+		if (feature.geometry.type === "LineString") { //Set line style
+			layer.setStyle({
+				'color': '#39B7CD',
+				'opacity': '1'
+      });
+		}
 		layer.on({
 			click: hoverColor,
 			mouseover: hoverColor,
@@ -131,17 +135,20 @@ $.getJSON("data/highlights.json", function (data) {
 	majorHighlights.addData(data);
 });
 
-// Change the POI color and size, based on user interaction.
+//Change the POI color and size, based on user interaction.
 //TODO: Refactor to clean this up.
 //TODO: Get the marker-symbol to work with the original field (marker-symbol)
 function hoverColor () {
-	if (this instanceof L.Path) {
-    //Do nothing
-	} else {
+	if (this instanceof L.Path) { //If the feature is a polyline:
+		this.setStyle({
+    	color: '#D73027',
+			weight: '7'
+		});
+	} else { //Else, points:
 		this.setIcon(L.mapbox.marker.icon({
 			'marker-color': '#D73027',
 			'marker-size': 'large',
-			'marker-symbol': this.feature.properties.icon
+			'marker-symbol': this.feature.properties.iconSymbol
 		}));
 	}
 }
@@ -150,17 +157,20 @@ function hoverColor () {
 //TODO: Refactor to clean this up.
 //TODO: Get the marker-symbol to work with the original field (marker-symbol)
 function resetColor () {
-	if (this instanceof L.Path) {
-		//Do nothing
-	} else {
+	if (this instanceof L.Path) { //If the feature is a polyline:
+		this.setStyle({
+			color: '#39B7CD',
+			opacity: '1',
+			weight: '5'
+		});
+	} else { //Else, points:
 		this.setIcon(L.mapbox.marker.icon({
 			'marker-color': '#39B7CD',
 			'marker-size': 'medium',
-		  'marker-symbol': this.feature.properties.icon
+		  'marker-symbol': this.feature.properties.iconSymbol
 		}));
 	}
 }
-
 
 /* MAP */
 var map = L.map('map', {
