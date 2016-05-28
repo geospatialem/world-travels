@@ -105,7 +105,8 @@ var majorHighlights = L.geoJson(null, {
 		layer.on({
 			click: hoverColor,
 			mouseover: hoverColor,
-			mouseout: resetColor
+			mouseout: resetColor,
+			popupclose: resetColor
 		});
 		layer.options.riseOnHover = true; //Rise each feature on hover
 		layer.options.title = feature.properties.Name; //Add a title on hover
@@ -130,15 +131,26 @@ $.getJSON("data/highlights.json", function (data) {
 	majorHighlights.addData(data);
 });
 
-
-function hoverColor (e) {
-	var hoverColor = e.target.feature.properties['marker-color'] = '#D73027';
-	console.log(hoverColor); //testing
+// Change the POI color and size, based on user interaction.
+//TODO: Refactor to clean this up.
+//TODO: Get the marker-symbol to work with the original field (marker-symbol)
+function hoverColor () {
+	this.setIcon(L.mapbox.marker.icon({
+		'marker-color': '#D73027',
+		'marker-size': 'large',
+		'marker-symbol': this.feature.properties.icon
+	}));
 }
 
-function resetColor (e) {
-	var resetColor = e.target.feature.properties['marker-color'] = '#39B7CD';
-	console.log(resetColor); //testing
+//Reset the POI color and size, based on user interaction.
+//TODO: Refactor to clean this up.
+//TODO: Get the marker-symbol to work with the original field (marker-symbol)
+function resetColor () {
+	this.setIcon(L.mapbox.marker.icon({
+		'marker-color': '#39B7CD',
+		'marker-size': 'medium',
+	  'marker-symbol': this.feature.properties.icon
+	}));
 }
 
 
