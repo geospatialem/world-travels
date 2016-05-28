@@ -135,22 +135,30 @@ $.getJSON("data/highlights.json", function (data) {
 //TODO: Refactor to clean this up.
 //TODO: Get the marker-symbol to work with the original field (marker-symbol)
 function hoverColor () {
-	this.setIcon(L.mapbox.marker.icon({
-		'marker-color': '#D73027',
-		'marker-size': 'large',
-		'marker-symbol': this.feature.properties.icon
-	}));
+	if (this instanceof L.Path) {
+    //Do nothing
+	} else {
+		this.setIcon(L.mapbox.marker.icon({
+			'marker-color': '#D73027',
+			'marker-size': 'large',
+			'marker-symbol': this.feature.properties.icon
+		}));
+	}
 }
 
 //Reset the POI color and size, based on user interaction.
 //TODO: Refactor to clean this up.
 //TODO: Get the marker-symbol to work with the original field (marker-symbol)
 function resetColor () {
-	this.setIcon(L.mapbox.marker.icon({
-		'marker-color': '#39B7CD',
-		'marker-size': 'medium',
-	  'marker-symbol': this.feature.properties.icon
-	}));
+	if (this instanceof L.Path) {
+		//Do nothing
+	} else {
+		this.setIcon(L.mapbox.marker.icon({
+			'marker-color': '#39B7CD',
+			'marker-size': 'medium',
+		  'marker-symbol': this.feature.properties.icon
+		}));
+	}
 }
 
 
