@@ -4025,6 +4025,53 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Ponte Vecchio",
+        "City": "Firenze",
+        "Region": "Italy",
+        "Day": "6",
+        "start": "2016-16-04",
+        "end": "2016-17-04",
+        "formatDate": "Saturday, April 16, 2016",
+        "Comments": "A Medieval stone arch bridge over the Arno River. Noted for still having shops built along it, as was once common. Fish butchers initially occupied the shops until Florence royalty enforced tenants to be high-end jewelers.",
+        "Image": "italy/ponte-vecchio",
+        "marker-symbol": "camera",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "camera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.253090,
+          43.767940
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Caffe Alfieri",
+        "City": "Firenze",
+        "Region": "Italy",
+        "Day": "6",
+        "start": "2016-16-04",
+        "end": "2016-16-04",
+        "formatDate": "Saturday, April 16, 2016",
+        "Comments": "Amazing wine bar right off the Arno River. The bar will provide apps when you order drinks. HIGHLY recommended!",
+        "marker-symbol": "bar",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.250187,
+          43.769781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Piazza della Signoria",
         "City": "Firenze",
         "Region": "Italy",
@@ -4036,7 +4083,8 @@
         "Image": "italy/piazza-della-signoria",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "iconSymbol": "camera"
+        "iconSymbol": "camera",
+        "photoType": "Portrait"
       },
       "geometry": {
         "type": "Point",
@@ -4074,6 +4122,30 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Battistero di San Giovanni",
+        "City": "Firenze",
+        "Region": "Italy",
+        "Day": "7",
+        "start": "2016-17-04",
+        "end": "2016-17-04",
+        "formatDate": "Sunday, April 17, 2016",
+        "Comments": "The Baptistery is one of the oldest buildings in Florence, constructed between 1059 and 1128.",
+        "Image": "italy/battistero-san-giovanni",
+        "marker-symbol": "religious-christian",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "religious-christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.255031,
+          43.773118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Cattedrale di Santa Maria del Fiore",
         "City": "Firenze",
         "Region": "Italy",
@@ -4085,7 +4157,8 @@
         "Image": "italy/duomo",
         "marker-symbol": "religious-christian",
         "marker-color": "#39B7CD",
-        "iconSymbol": "religious-christian"
+        "iconSymbol": "religious-christian",
+        "photoType": "Portrait"
       },
       "geometry": {
         "type": "Point",
