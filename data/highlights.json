@@ -3886,9 +3886,9 @@
         "City": "Vatican City",
         "Region": "Vatican City",
         "Day": "5",
-        "start": "2016-14-04",
-        "end": "2016-14-04",
-        "formatDate": "Thursday, April 14, 2016",
+        "start": "2016-15-04",
+        "end": "2016-15-04",
+        "formatDate": "Friday, April 15, 2016",
         "Comments": "The original public entrance to Vatican City.",
         "Image": "italy/vatican-entrance",
         "marker-symbol": "museum",
@@ -3910,9 +3910,9 @@
         "City": "Vatican City",
         "Region": "Vatican City",
         "Day": "5",
-        "start": "2016-14-04",
-        "end": "2016-14-04",
-        "formatDate": "Thursday, April 14, 2016",
+        "start": "2016-15-04",
+        "end": "2016-15-04",
+        "formatDate": "Friday, April 15, 2016",
         "Comments": "Beautiful statues!",
         "Image": "italy/vatican-courtyard-statue",
         "marker-symbol": "museum",
@@ -3934,9 +3934,9 @@
         "City": "Vatican City",
         "Region": "Vatican City",
         "Day": "5",
-        "start": "2016-14-04",
-        "end": "2016-14-04",
-        "formatDate": "Thursday, April 14, 2016",
+        "start": "2016-15-04",
+        "end": "2016-15-04",
+        "formatDate": "Friday, April 15, 2016",
         "Comments": "'The original' Bramante staircase built in 1505 to a design by Donato Bramante. It was built to allow Pope Julius II to enter his private residence while still in his carriage.",
         "Image": "italy/bramante-staircase",
         "marker-symbol": "camera",
@@ -3958,9 +3958,9 @@
         "City": "Vatican City",
         "Region": "Vatican City",
         "Day": "5",
-        "start": "2016-14-04",
-        "end": "2016-14-04",
-        "formatDate": "Thursday, April 14, 2016",
+        "start": "2016-15-04",
+        "end": "2016-15-04",
+        "formatDate": "Friday, April 15, 2016",
         "Comments": "The fountain was created as a replica of a Galleon of the Papal Fleet by famed architect Hans Van Zanten.",
         "Image": "italy/vatican-fountain-galley",
         "marker-symbol": "camera",
@@ -3981,10 +3981,10 @@
         "Name": "Tomba di San Pietro",
         "City": "Vatican City",
         "Region": "Vatican City",
-        "Day": "4",
-        "start": "2016-14-04",
-        "end": "2016-14-04",
-        "formatDate": "Thursday, April 14, 2016",
+        "Day": "5",
+        "start": "2016-15-04",
+        "end": "2016-15-04",
+        "formatDate": "Friday, April 15, 2016",
         "Comments": "Tombs of the Popes (located underneath the Basilica). Photos and talking are prohibited in the Tomb.",
         "marker-symbol": "religious-christian",
         "marker-color": "#39B7CD",
@@ -4005,9 +4005,9 @@
         "City": "Rome",
         "Region": "Italy",
         "Day": "5",
-        "start": "2016-14-04",
-        "end": "2016-14-04",
-        "formatDate": "Thursday, April 14, 2016",
+        "start": "2016-15-04",
+        "end": "2016-15-04",
+        "formatDate": "Friday, April 15, 2016",
         "Comments": "",
         "Image": "italy/castel-santangelo",
         "marker-symbol": "museum",
@@ -4025,13 +4025,62 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Piazza della Signoria",
+        "City": "Firenze",
+        "Region": "Italy",
+        "Day": "6",
+        "start": "2016-16-04",
+        "end": "2016-16-04",
+        "formatDate": "Saturday, April 16, 2016",
+        "Comments": "",
+        "Image": "italy/piazza-della-signoria",
+        "marker-symbol": "camera",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "camera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.255679,
+          43.769684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Galleria dell'Accademia",
+        "City": "Firenze",
+        "Region": "Italy",
+        "Day": "7",
+        "start": "2016-17-04",
+        "end": "2016-17-04",
+        "formatDate": "Sunday, April 17, 2016",
+        "Comments": "An art museum housing Michelangelo's sculpture David. It also has other works by Michelangelo and a collection of Renaissance paintings.",
+        "Image": "italy/galleria-della-accademia",
+        "marker-symbol": "art-gallery",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "art-gallery",
+        "photoType": "Portrait"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.259307,
+          43.776706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Cattedrale di Santa Maria del Fiore",
         "City": "Firenze",
         "Region": "Italy",
         "Day": "7",
-        "start": "2016-14-04",
-        "end": "2016-14-04",
-        "formatDate": "Thursday, April 14, 2016",
+        "start": "2016-17-04",
+        "end": "2016-17-04",
+        "formatDate": "Sunday, April 17, 2016",
         "Comments": "It took 140 years to construct finishing in 1436, without the facade. In 1887 the facade, which includes Italy's green and red colors, was finally finished after Florence became Italy's capitol (for 5 years).",
         "Image": "italy/duomo",
         "marker-symbol": "religious-christian",
@@ -4043,6 +4092,80 @@
         "coordinates": [
           11.255997,
           43.773128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Venchi Gelato",
+        "City": "Firenze",
+        "Region": "Italy",
+        "Day": "7",
+        "start": "2016-17-04",
+        "end": "2016-17-04",
+        "formatDate": "Sunday, April 17, 2016",
+        "Comments": "Florence is the birthplace of Gelato, and Venchi Gelato is to die for. Visit, and pay the extra euro for chocolate with your gelato. You will not be dissapointed.",
+        "Image": "italy/venchi-gelato",
+        "marker-symbol": "restaurant",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.255270,
+          43.771795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Porcellino",
+        "City": "Firenze",
+        "Region": "Italy",
+        "Day": "7",
+        "start": "2016-17-04",
+        "end": "2016-17-04",
+        "formatDate": "Sunday, April 17, 2016",
+        "Comments": "Local Florentine nickname for the bronze fountain of a boar. Visitors put a coin into the mouth, hoping it will fall through without hitting the underlying grate. Successfully doing so indicates good luck.",
+        "Image": "italy/porcellino",
+        "marker-symbol": "camera",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "camera",
+        "photoType": "Portrait"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.254212,
+          43.769873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Benvenuto Cellini's Perseus with the Head of Medusa",
+        "City": "Firenze",
+        "Region": "Italy",
+        "Day": "7",
+        "start": "2016-17-04",
+        "end": "2016-17-04",
+        "formatDate": "Sunday, April 17, 2016",
+        "Comments": "Located in the Loggia dei Lanzi, a building on a corner of the Piazza della Signoria.",
+        "Image": "italy/perseus-medusa",
+        "marker-symbol": "art-gallery",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "art-gallery",
+        "photoType": "Portrait"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.255527,
+          43.769194
         ]
       }
     },
@@ -4101,8 +4224,8 @@
         "City": "Rome",
         "Region": "Italy",
         "Day": "10",
-        "start": "2016-19-04",
-        "end": "2016-19-04",
+        "start": "2016-20-04",
+        "end": "2016-20-04",
         "formatDate": "Wednesday, April 20, 2016",
         "Comments": "A view from Trenitalia between Florence, and Rome.",
         "Image": "italy/vineyards",
@@ -4125,7 +4248,7 @@
         "City": "Pompeii",
         "Region": "Italy",
         "Day": "11",
-        "start": "2016-20-04",
+        "start": "2016-21-04",
         "end": "2016-21-04",
         "formatDate": "Thursday, April 21, 2016",
         "Comments": "Archaeological site of the remains of the iconic Roman city preserved by Vesuvius' ash.",
@@ -4145,12 +4268,37 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Waterfall",
+        "City": "Sorrento",
+        "Region": "Italy",
+        "Day": "12",
+        "start": "2016-22-04",
+        "end": "2016-22-04",
+        "formatDate": "Friday, April 22, 2016",
+        "Comments": "Beautiful waterfall off the Sorrento coast.",
+        "Image": "italy/waterfall",
+        "marker-symbol": "camera",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "camera",
+        "photoType": "Portrait"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.329865,
+          40.603641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Faraglioni",
         "City": "Capri",
         "Region": "Italy",
         "Day": "12",
         "start": "2016-22-04",
-        "end": "2016-23-04",
+        "end": "2016-22-04",
         "formatDate": "Friday, April 22, 2016",
         "Comments": "Coastal and oceanic rock formations eroded by waves.",
         "Image": "italy/il-faraglioni",
