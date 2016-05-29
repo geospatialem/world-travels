@@ -115,7 +115,14 @@ var majorHighlights = L.geoJson(null, {
 		layer.options.riseOnHover = true; //Rise each feature on hover
 		layer.options.title = feature.properties.Name; //Add a title on hover
 		//Popup
-		if (feature.properties.Image) {
+		if (feature.properties.photoType === "Portrait") {
+	  layer.bindPopup(
+				"<b>" + feature.properties.Name + "</b> (<i><a class='linkZoomToLocation'>Zoom to location</a></i>) <br />" +
+			  "<i>" + feature.properties.City + ", " + feature.properties.Region + "</i><br />" +
+			  feature.properties.Comments + "<br />" +
+			"<img src='photos/" + feature.properties.Image + ".JPG' width='200' height='250'></img><br />"
+	   );
+	 } else if (feature.properties.Image) {
 	  layer.bindPopup(
 				"<b>" + feature.properties.Name + "</b> (<i><a class='linkZoomToLocation'>Zoom to location</a></i>) <br />" +
 			  "<i>" + feature.properties.City + ", " + feature.properties.Region + "</i><br />" +
