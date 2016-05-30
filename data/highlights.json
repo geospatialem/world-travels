@@ -34,7 +34,7 @@
         "Day": "1, 10",
         "start": "2015-21-05",
         "formatDate": "Thursday, May 21, 2015",
-        "Comments": "There is a Grill (Mexican cuisine) and Theatrepub (pizza). They are seperate resteraunts, but equally as good in taste. The beer is delicious. Highly recommended.",
+        "Comments": "There is a Grill (Mexican cuisine) and Theatrepub (pizza). They are seperate restaurants, but equally as good in taste. The beer is delicious. Highly recommended.",
         "marker-symbol": "restaurant",
         "marker-color": "#39B7CD",
         "iconSymbol": "restaurant"
@@ -2980,7 +2980,7 @@
         "start": "2015-28-05",
         "end": "2015-29-05",
         "formatDate": "Thursday, May 28, 2015",
-        "Comments": "Take the 45-minute cruise to Halibut Cove via the Danny J. Booking will include a dinner reservation at the amazing Saltry resteraunt.",
+        "Comments": "Take the 45-minute cruise to Halibut Cove via the Danny J. Booking will include a dinner reservation at the amazing Saltry restaurant.",
         "Image": "alaska/danny-boat",
         "stroke": "#39B7CD",
         "stroke-width": 3,
@@ -4415,6 +4415,31 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Grotta Bianca",
+        "City": "Capri",
+        "Region": "Italy",
+        "Day": "12",
+        "start": "2016-22-04",
+        "end": "2016-22-04",
+        "formatDate": "Friday, April 22, 2016",
+        "Comments": "White incrustations on its sides, and white stalagtites hanging from the roof. Locals believe some of the rock resembles the Virgin Mary.",
+        "Image": "italy/white-grotto",
+        "marker-symbol": "camera",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "camera",
+        "photoType": "Portrait"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.260849,
+          40.552624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Faraglioni",
         "City": "Capri",
         "Region": "Italy",
@@ -4435,6 +4460,160 @@
           40.5403
         ]
       }
-    }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Grotta Verde",
+        "City": "Capri",
+        "Region": "Italy",
+        "Day": "12",
+        "start": "2016-22-04",
+        "end": "2016-22-04",
+        "formatDate": "Friday, April 22, 2016",
+        "Comments": "Absolutely *stunning* water color. A MUST if traveling to Capri.",
+        "Image": "italy/green-grotto",
+        "marker-symbol": "camera",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "camera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.221480,
+          40.539075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Punta Carena",
+        "City": "Capri",
+        "Region": "Italy",
+        "Day": "12",
+        "start": "2016-22-04",
+        "end": "2016-22-04",
+        "formatDate": "Friday, April 22, 2016",
+        "Comments": "Italy's second most important lighthouse, active since 1867.",
+        "Image": "italy/lighthouse",
+        "marker-symbol": "lighthouse",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "lighthouse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.198840,
+          40.536246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Funicular",
+        "City": "Capri",
+        "Region": "Italy",
+        "Day": "12",
+        "start": "2016-22-04",
+        "end": "2016-22-04",
+        "formatDate": "Friday, April 22, 2016",
+        "Comments": "The public transit of Capri residents.",
+        "Image": "italy/funicular",
+        "stroke": "#39B7CD",
+        "stroke-width": 3,
+        "stroke-opacity": 1,
+        "iconSymbol": "",
+        "photoType": "Portrait"
+      },
+      "geometry": {
+         "type": "LineString",
+         "coordinates": [
+           [14.239096641540527,40.55572723588367],
+           [14.241371154785154,40.55336326204667],
+           [14.2417573928833,40.55295567191495],
+           [14.24203634262085,40.552711116645014],
+           [14.24227237701416,40.552466560481875],
+           [14.242401123046873,40.55228721872792],
+           [14.24252986907959,40.55204266101662],
+           [14.242637157440186,40.551798102412135],
+           [14.242637157440186,40.55160245488545],
+           [14.242658615112305,40.55134159062733],
+           [14.242701530456543,40.55090137988736]
+         ]
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "Name": "Funicular Top",
+         "City": "Capri",
+         "Region": "Italy",
+         "Day": "12",
+         "start": "2016-22-04",
+         "end": "2016-22-04",
+         "formatDate": "Friday, April 22, 2016",
+         "Comments": "Great views of the Marina Grande, and Capri.",
+         "Image": "italy/funicular-top",
+         "marker-symbol": "rail-above",
+         "marker-color": "#39B7CD",
+         "iconSymbol": "rail-above"
+       },
+       "geometry": {
+         "type": "Point",
+         "coordinates": [
+           14.24269,
+           40.55086
+         ]
+       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Garden of Augustus",
+        "City": "Capri",
+        "Region": "Italy",
+        "Day": "12",
+        "start": "2016-22-04",
+        "end": "2016-22-04",
+        "formatDate": "Friday, April 22, 2016",
+        "Comments": "Botanical gardens designed in terraces overlooking the sea, with many ornamental plants and flowers.",
+        "Image": "italy/garden-of-augustus",
+        "marker-symbol": "park2",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "park2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.243170,
+          40.546825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Gelateria Buonocore",
+        "City": "Capri",
+        "Region": "Italy",
+        "Day": "12",
+        "start": "2016-22-04",
+        "end": "2016-22-04",
+        "formatDate": "Friday, April 22, 2016",
+        "Comments": "Delicious gelato.",
+        "marker-symbol": "restaurant",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.243604,
+          40.550521
+        ]
+      }
+   }
   ]
 }
