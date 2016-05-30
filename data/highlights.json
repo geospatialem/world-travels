@@ -3750,7 +3750,8 @@
         "Image": "italy/malta-keyhole",
         "marker-symbol": "camera",
         "marker-color": "#39B7CD",
-        "iconSymbol": "camera"
+        "iconSymbol": "camera",
+        "photoType": "Portrait"
       },
       "geometry": {
         "type": "Point",
