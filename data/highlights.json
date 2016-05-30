@@ -3891,9 +3891,9 @@
         "formatDate": "Friday, April 15, 2016",
         "Comments": "The original public entrance to Vatican City.",
         "Image": "italy/vatican-entrance",
-        "marker-symbol": "museum",
+        "marker-symbol": "entrance",
         "marker-color": "#39B7CD",
-        "iconSymbol": "museum"
+        "iconSymbol": "entrance"
       },
       "geometry": {
         "type": "Point",
@@ -4049,6 +4049,31 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Museo Galileo",
+        "City": "Firenze",
+        "Region": "Italy",
+        "Day": "6",
+        "start": "2016-16-04",
+        "end": "2016-17-04",
+        "formatDate": "Saturday, April 16, 2016",
+        "Comments": "Home to one of the world’s major collection of scientific instruments.",
+        "Image": "italy/museo-galileo",
+        "marker-symbol": "museum",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "museum",
+        "photoType": "Portrait"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.255882,
+          43.767765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Caffe Alfieri",
         "City": "Firenze",
         "Region": "Italy",
@@ -4140,6 +4165,30 @@
         "coordinates": [
           11.255031,
           43.773118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Bronze Doors: Battistero di San Giovanni",
+        "City": "Firenze",
+        "Region": "Italy",
+        "Day": "7",
+        "start": "2016-17-04",
+        "end": "2016-17-04",
+        "formatDate": "Sunday, April 17, 2016",
+        "Comments": "The Baptistry is renowned for its three sets of artistically important bronze doors with relief sculptures.",
+        "Image": "italy/bronze-doors",
+        "marker-symbol": "camera",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "camera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.255304,
+          43.773108
         ]
       }
     },
