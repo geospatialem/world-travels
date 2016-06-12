@@ -4319,6 +4319,30 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Ponte della Costituzione",
+        "City": "Venice",
+        "Region": "Italy",
+        "Day": "7",
+        "start": "2016-17-04",
+        "end": "2016-17-04",
+        "formatDate": "Sunday, April 17, 2016",
+        "Comments": "The fourth bridge over the Grand Canal, designed by Santiago Calatrava. It was moved into place in 2007, amid protest by politicians and the general public.",
+        "Image": "italy/ponte-della-costituzione",
+        "marker-symbol": "camera",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "camera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.319395,
+          45.438883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Hotel Moresco",
         "City": "Venice",
         "Region": "Italy",
