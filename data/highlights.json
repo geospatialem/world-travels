@@ -3403,6 +3403,30 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Hotel Lancelot",
+        "City": "Rome",
+        "Region": "Italy",
+        "Day": "2",
+        "start": "2016-12-04",
+        "end": "2016-16-04",
+        "formatDate": "Tuesday, April 12, 2016",
+        "Comments": "View of the Colosseo from the room!",
+        "Image": "italy/hotel-lancelot",
+        "marker-symbol": "lodging",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "lodging"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.497283,
+          41.888315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Spanish Steps",
         "City": "Rome",
         "Region": "Italy",
@@ -4050,6 +4074,30 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Hotel Alessandra",
+        "City": "Firenze",
+        "Region": "Italy",
+        "Day": "6",
+        "start": "2016-16-04",
+        "end": "2016-17-04",
+        "formatDate": "Saturday, April 16, 2016",
+        "Comments": "View from the hotel room!",
+        "Image": "italy/hotel-alessandra",
+        "marker-symbol": "lodging",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "lodging"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.252472,
+          43.769306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Ponte Vecchio",
         "City": "Firenze",
         "Region": "Italy",
@@ -4673,6 +4721,30 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Hotel Forum",
+        "City": "Pompeii",
+        "Region": "Italy",
+        "Day": "10",
+        "start": "2016-20-04",
+        "end": "2016-21-04",
+        "formatDate": "Wednesday, April 20, 2016",
+        "Comments": "View of the hotel courtyard with Sfusato lemon trees!",
+        "Image": "italy/hotel-forum",
+        "marker-symbol": "lodging",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "lodging"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.496665,
+          40.748958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Scavi di Pompei",
         "City": "Pompeii",
         "Region": "Italy",
@@ -4691,6 +4763,30 @@
         "coordinates": [
           14.4847,
           40.7493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Hilton Sorrento Palace",
+        "City": "Sorrento",
+        "Region": "Italy",
+        "Day": "12",
+        "start": "2016-21-04",
+        "end": "2016-23-04",
+        "formatDate": "Thursday, April 21, 2016",
+        "Comments": "View from the room!",
+        "Image": "italy/hilton-sorrento",
+        "marker-symbol": "lodging",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "lodging"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.371930,
+          40.620866
         ]
       }
     },
