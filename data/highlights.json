@@ -74,6 +74,30 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Talkeetna Alaskan Lodge",
+        "City": "Talkeetna",
+        "Region": "AK",
+        "Day": "2",
+        "start": "2015-22-05",
+        "end": "2015-25-05",
+        "formatDate": "Friday, May 22, 2015",
+        "Comments": "View from the room!",
+        "Image": "alaska/talkeetna-lodge",
+        "marker-symbol": "lodging",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "lodging"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.094093,
+          62.308537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Denali Flightseeing Route",
         "City": "Talkeetna",
         "Region": "AK",
@@ -2159,6 +2183,31 @@
         "coordinates": [
           -148.9844,
           60.8215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Hidden Creek Bed & Breakfast",
+        "City": "Girdwood",
+        "Region": "AK",
+        "Day": "5",
+        "start": "2015-25-05",
+        "end": "2015-26-05",
+        "formatDate": "Monday, May 25, 2015",
+        "Comments": "Amazing local bed and breakfast.",
+        "Image": "alaska/hidden-creek",
+        "photoType": "Portrait",
+        "marker-symbol": "lodging",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "lodging"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.123596,
+          60.950513
         ]
       }
     },
@@ -4361,6 +4410,30 @@
         "coordinates": [
           11.255527,
           43.769194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Piazzale degli Uffizi",
+        "City": "Firenze",
+        "Region": "Italy",
+        "Day": "7",
+        "start": "2016-17-04",
+        "end": "2016-17-04",
+        "formatDate": "Sunday, April 17, 2016",
+        "Comments": "Narrow courtyard between palace's two wings of the Uffizi Gallery.",
+        "Image": "italy/piazzale-degli-uffizi",
+        "marker-symbol": "camera",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "camera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.255501,
+          43.768270
         ]
       }
     },
