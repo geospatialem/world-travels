@@ -4537,6 +4537,31 @@
     {
       "type": "Feature",
       "properties": {
+        "Name": "Basilica San Marco",
+        "City": "Venice",
+        "Region": "Italy",
+        "Day": "8",
+        "start": "2016-18-04",
+        "end": "2016-18-04",
+        "formatDate": "Monday, April 18, 2016",
+        "Comments": "The original chapel of Venice's Doge, and Venice's cathedral since 1807.",
+        "Image": "italy/basilica-san-marco",
+        "marker-symbol": "religious-christian",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "religious-christian",
+        "photoType": "Portrait"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.339712,
+          45.434538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Name": "Torre dell'Orologio",
         "City": "Venice",
         "Region": "Italy",
@@ -4860,6 +4885,30 @@
         "coordinates": [
           14.4847,
           40.7493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Basilica Scavi",
+        "City": "Pompeii",
+        "Region": "Italy",
+        "Day": "11",
+        "start": "2016-21-04",
+        "end": "2016-21-04",
+        "formatDate": "Thursday, April 21, 2016",
+        "Comments": "Archaeological site of the remains of the iconic Roman city preserved by Vesuvius' ash.",
+        "Image": "italy/pompei-basilica",
+        "marker-symbol": "museum",
+        "marker-color": "#39B7CD",
+        "iconSymbol": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.484232,
+          40.748673
         ]
       }
     },
