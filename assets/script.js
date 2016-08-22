@@ -212,15 +212,20 @@ function addMapTileAttr(styleClass) {
 // Add or remove layers based on the map zoom, after the zoom has completed.
 map.on('zoomend', function () {
 	/* Adventures layer */
-	if (map.getZoom() > 2 && map.hasLayer(adventures)) { map.removeLayer(adventures); }
-	if (map.getZoom() == 2 && map.hasLayer(adventures) == false) { map.addLayer(adventures); }
+	if (map.getZoom() > 4 && map.hasLayer(adventures)) { map.removeLayer(adventures); }
+	if (map.getZoom() == 4 && map.hasLayer(adventures) == false) { map.addLayer(adventures); }
 	/* Visited cities layer */
-	if (map.getZoom() <= 2 && map.hasLayer(visitedCities)) { map.removeLayer(visitedCities); }
-	if (map.getZoom() >= 3 && map.getZoom() < 7 && map.hasLayer(visitedCities) == false) { map.addLayer(visitedCities); }
+	if (map.getZoom() <= 4 && map.hasLayer(visitedCities)) { map.removeLayer(visitedCities); }
+	if (map.getZoom() >= 5 && map.getZoom() < 7 && map.hasLayer(visitedCities) == false) { map.addLayer(visitedCities); }
   if (map.getZoom() >= 8 && map.hasLayer(visitedCities)) { map.removeLayer(visitedCities); }
 	/* Major highlights layer */
 	if (map.getZoom() < 6 && map.hasLayer(majorHighlights)) { map.removeLayer(majorHighlights); }
 	if (map.getZoom() >= 6 && map.hasLayer(majorHighlights) == false) { map.addLayer(majorHighlights); }
+});
+
+// Add or remove layers when returning to the 'home' state
+$('.leaflet-control-zoomhome-home').on('click', function(e) {
+	if (map.hasLayer(adventures) == false) { map.addLayer(adventures); }
 });
 
 // Popup enhnacements once opened
