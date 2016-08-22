@@ -8,6 +8,15 @@ html, body, #map {
     overflow-y: hidden;
 }
 
+:focus, button:focus {
+  border: 2px dotted #000;
+}
+
+#map:focus {
+	border: 1px;
+	outline: 0;
+}
+
 .leaflet-label {
     font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -50,6 +59,43 @@ html, body, #map {
 .leaflet-popup-content img { /* Align popup image to the center */
   margin: 0 auto;
   display:block;
+}
+
+h1.sidebar-header {
+  background-color: #1b6db5;
+}
+
+.sidebar-tabs > li.active, .sidebar-tabs > ul > li.active {
+  background-color: #1b6db5;
+}
+
+img#sidebar-img {
+  width: 90%;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h1,h2,h3,h4,p,li {
+  font-family: sans-serif;
+}
+
+/*********************/
+/*     Button       */
+/*******************/
+.button {
+    width: 90%;
+    background-color: #1b6db5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 /********************/

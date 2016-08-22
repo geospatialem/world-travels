@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>World Travels</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-	<link rel="stylesheet" href="//api.mapbox.com/mapbox.js/v2.2.2/mapbox.css">
-	<link rel="stylesheet" href="assets/Leaflet.EasyButton/easy-button.css">
+	<link rel="stylesheet" href="//api.mapbox.com/mapbox.js/v2.4.0/mapbox.css">
+	<link rel="stylesheet" href="assets/Leaflet-zoomhome/leaflet-zoomhome.css">
+	<link rel="stylesheet" href="assets/leaflet-sidebar/leaflet-sidebar.css">
 	<link rel="stylesheet" href="assets/style.css">
 
 	<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
@@ -25,13 +26,92 @@
   ga('send', 'pageview');
 </script>
 
-	<div id="map"></div>
+<!-- Sidebar -->
+<div id="sidebar" class="sidebar collapsed">
+		<div class="sidebar-tabs"><!-- Sidebar nav -->
+				<ul role="tablist"><!-- Top nav -->
+						<li><a href="#home" role="tab" alt="Home sidebar tab"><i class="fa fa-bars" aria-hidden="true"></i><span class="screen-reader-text">Home tab</span></a></li>
+						<li><a href="#alaska" role="tab" alt="Alaska sidebar tab"><i class="fa fa-anchor" aria-hidden="true"></i><span class="screen-reader-text">Alaska tab</span></a></li>
+						<li><a href="#italia" role="tab" alt="Italia sidebar tab"><i class="fa fa-university" aria-hidden="true"></i><span class="screen-reader-text">Italia tab</span></a></li>
+				</ul><!-- /Top nav -->
+		</div><!-- /Sidebar nav -->
+
+		<!-- Sidebar Tab panes -->
+		<div class="sidebar-content">
+
+				<!-- About -->
+				<div class="sidebar-pane" id="home">
+						<h1 class="sidebar-header">World Travels<span class="sidebar-close"><i class="fa fa-caret-left" aria-hidden="true"></i></span></h1>
+
+						<p>What do cartographers do when they travel the globe? They take photos, detailed notes, and sometimes get the exact coordinates of where they went and put it all together!</p>
+						<p>This interactive map showcases travels my husband and I have experienced around the globe together! &hearts;</p>
+
+						<img id="sidebar-img" src="photos/this-is-us.JPG" alt="My husband and I riding a gondola in Venezia, Italia"></img>
+
+						<button class="button" id="openAlaskaTabBtn"><i class="fa fa-info-circle" aria-hidden="true"></i> Learn more: Alaska <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+						<button class="button" id="openItaliaTabBtn"><i class="fa fa-info-circle" aria-hidden="true"></i> Learn more: Italia <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+			  </div><!-- /About -->
+
+				<!-- Alaska -->
+				<div class="sidebar-pane" id="alaska">
+						<h1 class="sidebar-header">Alaska<span class="sidebar-close"><i class="fa fa-caret-left" aria-hidden="true"></i></span></h1>
+						<h2>"The Last Frontier"</h2>
+
+							<p><strong>Cities</strong>:
+							<ul>
+								<li>Anchorage</li>
+								<li>Talkeetna</li>
+								<li>Denali</li>
+								<li>Girdwood</li>
+								<li>Seward</li>
+								<li>Homer</li>
+								<li>Halibut Cove</li>
+							</ul>
+							</p>
+
+						<p>Visited in May 2015. 11 days. 10 nights.</p>
+
+						<img id="sidebar-img" src="photos/alaska/fjords.JPG" alt="Alaska fjords from outside Seward"></img>
+
+						<button class="button" id="travelAlaskaBtn"><i class="fa fa-anchor fa-lg" aria-hidden="true"></i> Travel through Alaska</button>
+						<button class="button" id="openItaliaTabBtn2"><i class="fa fa-info-circle" aria-hidden="true"></i> Learn more: Italia <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+				</div><!-- /Alaska -->
+
+				<!-- Italia -->
+				<div class="sidebar-pane" id="italia">
+						<h1 class="sidebar-header">Italia<span class="sidebar-close"><i class="fa fa-caret-left" aria-hidden="true"></i></span></h1>
+						<h2>"When in Rome..."</h2>
+
+							<p><strong>Cities:</strong>
+							<ul>
+								<li>Roma</li>
+								<li>Firenze</li>
+								<li>Venezia</li>
+								<li>Pompei</li>
+								<li>Sorrento</li>
+								<li>Capri</li>
+							</ul>
+							</p>
+
+						<p>Visited in April 2016. 12 days. 12 nights.</p>
+
+						<img id="sidebar-img" src="photos/italy/garden-of-augustus.JPG" alt="Italia from the island of Capri's Garden of Augustus"></img>
+
+						<button class="button" id="travelItaliaBtn"><i class="fa fa-university fa-lg"></i> Travel through Italia</button>
+						<button class="button" id="openAlaskaTabBtn2"><i class="fa fa-info-circle"></i> Learn more: Alaska <i class="fa fa-arrow-circle-right"></i></button>
+				</div><!-- /Italia -->
+
+		</div><!-- /Sidebar Tab panes -->
+</div><!-- /Sidebar -->
+
+<div id="map" class="sidebar-map"></div>
 
 	<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script src="//api.mapbox.com/mapbox.js/v2.2.2/mapbox.js"></script>
+	<script src="//api.mapbox.com/mapbox.js/v2.4.0/mapbox.js"></script>
 	<script src="assets/leaflet.label.js"></script>
-	<script src="assets/Leaflet.EasyButton/easy-button.js"></script>
+	<script src="assets/leaflet-zoomhome/leaflet-zoomhome.js"></script>
 	<script src="assets/leaflet-hash.js"></script>
+	<script src="assets/leaflet-sidebar/leaflet-sidebar.js"></script>
 	<script src="assets/script.js"></script>
 
 </body>

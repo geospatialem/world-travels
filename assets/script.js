@@ -35,12 +35,10 @@ function polygonMouseOver(e) {
 		if (!L.Browser.ie && !L.Browser.opera) {
 			layer.bringToFront();
 		}
-		textDialogBox.update(layer.feature.properties); //Update the Text Dialog Box
 }
 
 /* Reset Polygon Function */
 function resetPolygon(e) {
-	textDialogBox.update(); //Reset the Text Dialog Box
 	adventures.resetStyle(e.target); //Reset the polygon style
 }
 
@@ -183,56 +181,34 @@ function resetColor () {
 var map = L.map('map', {
   center: [0, 0],
   zoom: 2,
+	zoomControl: false,
   layers: [mbEmerald, mbStreetSat, adventures],
 	minZoom: 2,
 	maxZoom: 16
 });
 
+//Add a zoom control with a home button
+var zoomControlHome = L.Control.zoomHome({
+	position: 'topright'
+}).addTo(map);
 
 /* COORDINATE HASH */
 var hash = new L.Hash(map);
 
-
-/* ZOOM BUTTON CONTROLS */
-// Control button zoom: Italy
-var homeButton = L.easyButton('fa-home', function(control){
-	map.setView([0, 0], 2);
-	this.disable(); //Disables the button on click
-}).addTo(map);
-
-// Control button zoom: Alaska
-var alaskaButton = L.easyButton('fa-anchor', function(control){
-	map.setView([61.68, -149.05], 6);
-	this.disable(); //Disables the button on click
-}).addTo(map);
-
-// Control button zoom: Italy
-var italyButton = L.easyButton('fa-university', function(control){
-	map.setView([43.08, 12.53], 7);
-	this.disable(); //Disables the button on click
-}).addTo(map);
-
-
-/* TEXT DIALOG BOX */
-var textDialogBox = L.control();
-textDialogBox.onAdd = function (map) {
-    this._div = L.DomUtil.create('div', 'textDialogBox');
-    this.update();
-    return this._div;
-};
-// Update the Text Dialog Box when the properties change
-textDialogBox.update = function (attributes) {
-    this._div.innerHTML = (attributes ?
-				"<h4>" + attributes.Adventure + "</h4>" +
-				"<b><i>" + attributes.Description + "</i></b><br />" +
-				attributes.Days + " days, " + attributes.Nights + " nights<br /><br />" +
-				"<i>Visited " + attributes.Visited + "</i>"
-        : '<b>Hover over an adventure</b>');
-};
-textDialogBox.addTo(map);
-
-
 /* EVENT LISTENERS */
+//Accessibility improvement to add an <alt> tag to the basemap tiles
+//TODO: Add accessibility on map movement for tiles
+$(document).on('ready', function(){
+    addMapTileAttr('.leaflet-tile-pane img')
+});
+
+function addMapTileAttr(styleClass) {
+    var selector = $(styleClass);
+    selector.each(
+    	function(index) { $(this).attr('alt',"Map tile image " + index); }
+		);
+}
+
 // Add or remove layers based on the map zoom, after the zoom has completed.
 map.on('zoomend', function () {
 	/* Adventures layer */
@@ -245,23 +221,13 @@ map.on('zoomend', function () {
 	/* Major highlights layer */
 	if (map.getZoom() < 6 && map.hasLayer(majorHighlights)) { map.removeLayer(majorHighlights); }
 	if (map.getZoom() >= 6 && map.hasLayer(majorHighlights) == false) { map.addLayer(majorHighlights); }
-	/* Text Dialog Box */
-	if (map.getZoom() > 2) { $(".textDialogBox").hide(); }
-	if (map.getZoom() == 2) { $(".textDialogBox").show(); }
-});
-
-// Re-enable the buttons on move.
-//TODO: Disable buttons more seamlessly when clicked
-map.on('zoomend move click', function(e) {
-	homeButton.enable();
-	alaskaButton.enable();
-	italyButton.enable();
 });
 
 // Popup enhnacements once opened
 map.on('popupopen', function(e) {
 		//Center the map when pop-up is opened
-    var projX = map.project(e.popup._latlng);
+    $(this).addClass("active");
+		var projX = map.project(e.popup._latlng);
     	projX.y -= e.popup._container.clientHeight/2
 	    	map.panTo(map.unproject(projX),{
 					animate: true
@@ -275,4 +241,31 @@ map.on('popupopen', function(e) {
 $('#map').on('click', '.linkZoomToLocation', function(e) {
 	map.setView([selectedLat, selectedLng], 16); //[lat,lng], zoomLevel
 	map.closePopup(); //Close the popup
+});
+
+/* Sidebar */
+var sidebar = L.control.sidebar('sidebar').addTo(map);
+
+sidebar.open('home'); // Open the Sidebar Home, by default
+
+/* Sidebar Event Listeners */
+
+// Alaska
+$('#openAlaskaTabBtn, #openAlaskaTabBtn2').on('click', function(e) {
+	sidebar.open('alaska');
+});
+
+$('#travelAlaskaBtn').on('click', function(e) {
+	sidebar.close();
+	map.setView([61.68, -149.05], 6);
+});
+
+// Italia
+$('#openItaliaTabBtn, #openItaliaTabBtn2').on('click', function(e) {
+	sidebar.open('italia');
+});
+
+$('#travelItaliaBtn').on('click', function(e) {
+	sidebar.close();
+	map.setView([43.08, 12.53], 7);
 });
