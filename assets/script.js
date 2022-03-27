@@ -4,21 +4,27 @@ selectedLat = [], selectedLng = [];
 //Mapbox Access Token
 L.mapbox.accessToken = 'pk.eyJ1IjoiaG9ja2V5ZHVjazMwIiwiYSI6InE4cmFHNlUifQ.X5m_TSatNjZs6Vc7B3_m2A';
 
-//Basemap: Mapbox Emerald (Set at lower zooms)
-var mbEmerald = L.tileLayer('https://api.mapbox.com/v4/mapbox.emerald/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaG9ja2V5ZHVjazMwIiwiYSI6InE4cmFHNlUifQ.X5m_TSatNjZs6Vc7B3_m2A', {
+// Esri basemaps
+var esriServiceUrl = 'https://server.arcgisonline.com/ArcGIS/rest/services/';
+var esriAttribution = 'Tiles &copy; Esri';
+
+//Basemap: Esri topo (Set at lower zooms)
+var esriTopo = L.tileLayer(esriServiceUrl + 'World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
 	minZoom: 2,
 	maxZoom: 7,
 	zIndex: 1,
-	attribution: "&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>, <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>"
+	attribution: esriAttribution
 });
 
-//Basemap: Mapbox Streets Satellite (Set at higher zooms)
-var mbStreetSat = L.tileLayer('https://api.mapbox.com/v4/mapbox.streets-satellite/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaG9ja2V5ZHVjazMwIiwiYSI6InE4cmFHNlUifQ.X5m_TSatNjZs6Vc7B3_m2A', {
+//Basemap: Esri satellite (Set at higher zooms)
+var esriSatellite = L.tileLayer(esriServiceUrl + 'World_Imagery/MapServer/tile/{z}/{y}/{x}', {
 	minZoom: 8,
 	maxZoom: 16,
 	zIndex: 2,
-	attribution: "&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>, <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>"
+	attribution: esriAttribution
 });
+
+
 
 /* Polygon Mouseover Function */
 function polygonMouseOver(e) {
@@ -181,10 +187,10 @@ function resetColor () {
 var map = L.map('map', {
   center: [0, 0],
   zoom: 2,
-	zoomControl: false,
-  layers: [mbEmerald, mbStreetSat, adventures],
-	minZoom: 2,
-	maxZoom: 16
+  zoomControl: false,
+  layers: [esriTopo, esriSatellite, adventures],
+  minZoom: 2,
+  maxZoom: 16
 });
 
 //Add a zoom control with a home button
